@@ -1,0 +1,2748 @@
+{
+    "spdxVersion": "SPDX-2.3",
+    "dataLicense": "CC0-1.0",
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "name": "sbomit-sbom",
+    "documentNamespace": "https://spdx.org/spdxdocs/",
+    "creationInfo": {
+        "licenseListVersion": "3.20",
+        "creators": [
+            "Tool: protobom-v0.2.0",
+            "Tool: sbomit-0.0.1"
+        ],
+        "created": "2026-03-25T02:11:36Z"
+    },
+    "packages": [
+        {
+            "name": "sbomit-sbom",
+            "SPDXID": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "versionInfo": "0.0.1",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "primaryPackagePurpose": "APPLICATION"
+        },
+        {
+            "name": "setuptools",
+            "SPDXID": "SPDXRef-pkg:pypi/setuptools@82.0.1",
+            "versionInfo": "82.0.1",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "75683f40e1121ebccbbca4d679ae2dbf8a0be0ba91531df285b28abe927a43f8"
+                }
+            ],
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/setuptools@82.0.1"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY"
+        }
+    ],
+    "files": [
+        {
+            "fileName": "docs/_templates/sidebarlogo.html",
+            "SPDXID": "SPDXRef-File-docs-_templates-sidebarlogo.html",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "8f72024c8eeb01d573eff11ed2e1dacd5985510331a084f9e6c8e32892248e82"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": ".git/hooks/pre-rebase.sample",
+            "SPDXID": "SPDXRef-File-.git-hooks-pre-rebase.sample",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "4febce867790052338076f4e66cc47efb14879d18097d1d61c8261859eaaa7b3"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "src/requests/help.py",
+            "SPDXID": "SPDXRef-File-src-requests-help.py",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "bccadffb7379b8e92c9c5a2a4cb1f36c66f7570dbb5b085d85d04984fe652fed"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": ".git/description",
+            "SPDXID": "SPDXRef-File-.git-description",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "85ab6c163d43a17ea9cf7788308bca1466f1b0a8d1cc92e26e9bf63da4062aee"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "docs/community/vulnerabilities.rst",
+            "SPDXID": "SPDXRef-File-docs-community-vulnerabilities.rst",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "7257b2cd5bc43cab2e9ea2e909037cb507c5d3353184c89f5a5c1c902fbdd076"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "tests/certs/valid/server/server.pem",
+            "SPDXID": "SPDXRef-File-tests-certs-valid-server-server.pem",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "d0b55dbe152874f2d7bce3513d52a8e5f587566186dfd7a88d14ad41367133d1"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "ext/flower-of-life.jpg",
+            "SPDXID": "SPDXRef-File-ext-flower-of-life.jpg",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "1b155652b7a20734dc0c056d4d0fb91d1a7951cb99142adaed5316302daeb3df"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "NOTICE",
+            "SPDXID": "SPDXRef-File-NOTICE",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "f5110972dedad2b4e9d314518daf3b7d72d6e02e499acd802181de6f74571dcc"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": ".git/hooks/prepare-commit-msg.sample",
+            "SPDXID": "SPDXRef-File-.git-hooks-prepare-commit-msg.sample",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "e9ddcaa4189fddd25ed97fc8c789eca7b6ca16390b2392ae3276f0c8e1aa4619"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "tests/certs/mtls/client/client.csr",
+            "SPDXID": "SPDXRef-File-tests-certs-mtls-client-client.csr",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "5fc31e8e331f1fdbf7f80c4840b4e70fa81f6dc46ecab811bb03134d21ab4004"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "docs/Makefile",
+            "SPDXID": "SPDXRef-File-docs-Makefile",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "a1f210795aefeaa886bbfa6122779ba4c8e52b0e8445b62dcecbb82d308d305e"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "docs/community/updates.rst",
+            "SPDXID": "SPDXRef-File-docs-community-updates.rst",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "202f5d2f2ac8b76c77f00fb0085886510350623873bb2626ef6cb192c84d385b"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "tests/testserver/__init__.py",
+            "SPDXID": "SPDXRef-File-tests-testserver-__init__.py",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "tests/__init__.py",
+            "SPDXID": "SPDXRef-File-tests-__init__.py",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "ac7f253daae0905f9b3dec647cae736bb3c090185aa373b30b3e851599e5342c"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "docs/_static/requests-sidebar.png",
+            "SPDXID": "SPDXRef-File-docs-_static-requests-sidebar.png",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "da8951134a14d06287616abe84749d04960d5c2a4e8493dab018f87d8eae8d12"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "tests/test_packages.py",
+            "SPDXID": "SPDXRef-File-tests-test_packages.py",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "90875423db059d65b39416d7b6d01b18938851b8071279877400beb506e08676"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "tests/certs/mtls/client/client.key",
+            "SPDXID": "SPDXRef-File-tests-certs-mtls-client-client.key",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "98ed2a33896438a77175ee8ecebe0a8bf57d39c24a18ba4ebf87d9bc8abf6711"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": ".witness.yaml",
+            "SPDXID": "SPDXRef-File-.witness.yaml",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "3abc2167053bc5c5963551c6ff529a1dae7da2961ae36230b2e790afada1c16e"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "ext/LICENSE",
+            "SPDXID": "SPDXRef-File-ext-LICENSE",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "3172d399cbd8f10609e73fec73d0e0b33eecd3c572a68b0722229d8c7059f725"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "docs/requirements.txt",
+            "SPDXID": "SPDXRef-File-docs-requirements.txt",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "5a7725baff849507d224e35c1b0c7324e4594ce79fc042df276c97eab96a5ffc"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": ".coveragerc",
+            "SPDXID": "SPDXRef-File-.coveragerc",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "8ac66b93028230c815ef67e0b38e74c65cc965a87ca3a49c16a8b8d7f641186d"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "docs/user/advanced.rst",
+            "SPDXID": "SPDXRef-File-docs-user-advanced.rst",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "2f6ad85a29e93427fe3eba05dfc80442bec71107f3b2d662b77bf8ae0fa1a000"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "ext/psf-compressed.png",
+            "SPDXID": "SPDXRef-File-ext-psf-compressed.png",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "9d4148ae5024484659fc8ccf9dacb92c6ee1d5b367104e97c0df1ed9524ad9a5"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "docs/_templates/hacks.html",
+            "SPDXID": "SPDXRef-File-docs-_templates-hacks.html",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "14590290d56e931e1db77681dfe0c08554df988d60e0a4b94d336b7ba0fdfb33"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": ".git/logs/HEAD",
+            "SPDXID": "SPDXRef-File-.git-logs-HEAD",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "7adcdc3ce6539e13825ed1f9e8117dcc787a4d00f65af8c3b09a0c83808d49a6"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "tests/certs/expired/ca/ca.crt",
+            "SPDXID": "SPDXRef-File-tests-certs-expired-ca-ca.crt",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "1407cb9c2502bf453ffa3f54cb846022f161a46b73fe4caf436157d95ad93367"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": ".git-blame-ignore-revs",
+            "SPDXID": "SPDXRef-File-.git-blame-ignore-revs",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "cb1e75b75e5842448557aa313bb77bb5ab2e4dc80a2a5cd5a2804a1afbf97aea"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "ext/kr.png",
+            "SPDXID": "SPDXRef-File-ext-kr.png",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "245f38d6101ce40366c1a30aec5a86b8b8885524ef86968162bf7cf3907307f3"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": ".git/hooks/fsmonitor-watchman.sample",
+            "SPDXID": "SPDXRef-File-.git-hooks-fsmonitor-watchman.sample",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "e0549964e93897b519bd8e333c037e51fff0f88ba13e086a331592bf801fa1d0"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "tests/certs/valid/server/server.csr",
+            "SPDXID": "SPDXRef-File-tests-certs-valid-server-server.csr",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "e880392e855c00d84c06daa45000a624950fc2da0dde1ae92f2a9f91370a578e"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": ".git/packed-refs",
+            "SPDXID": "SPDXRef-File-.git-packed-refs",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "a247ee5771a8a0942badd183b7326d6dcd899703826c7a891a5a8aded1ca05f1"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "LICENSE",
+            "SPDXID": "SPDXRef-File-LICENSE",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "docs/community/recommended.rst",
+            "SPDXID": "SPDXRef-File-docs-community-recommended.rst",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "99c8004abf493d6ad2018352dbdf923a790dfbe1a45dd90b214f1e29b08034d1"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "tests/certs/mtls/Makefile",
+            "SPDXID": "SPDXRef-File-tests-certs-mtls-Makefile",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "aa1f5be6bde49113304ba145736bc3a3d23d45dfaa81e0d977fd52378f30b314"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": ".git/config",
+            "SPDXID": "SPDXRef-File-.git-config",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "17485513720e463bea02d1d97da76068c0169e0024038e00b95b947d30c7747c"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "docs/user/quickstart.rst",
+            "SPDXID": "SPDXRef-File-docs-user-quickstart.rst",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "5914de6a636d91ca2ca3a0df55ef8e57359e3fe364fb7176fdee60d231fe2e9f"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": ".git/info/exclude",
+            "SPDXID": "SPDXRef-File-.git-info-exclude",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "6671fe83b7a07c8932ee89164d1f2793b2318058eb8b98dc5c06ee0a5a3b0ec1"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "docs/user/install.rst",
+            "SPDXID": "SPDXRef-File-docs-user-install.rst",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "8b70734839932fa0a53da6e1d97e9c8077fe15f6e06747f24acf154feea039db"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "tests/certs/expired/Makefile",
+            "SPDXID": "SPDXRef-File-tests-certs-expired-Makefile",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "a33636d6474f1e94a1de61c4e1fbd2efb5c55aa86061ab3ce2d2ad9fb5aeb457"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "tests/certs/expired/server/cert.cnf",
+            "SPDXID": "SPDXRef-File-tests-certs-expired-server-cert.cnf",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "3b70317a294d4ac19e055ccb7316c4b3d9cca685d7bdc40be98cdfa9994ff081"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "tests/certs/mtls/client/ca/ca-private.key",
+            "SPDXID": "SPDXRef-File-tests-certs-mtls-client-ca-ca-private.key",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "9a36bafea981da2dcd9a218b7ce23c778acdbee0009c0720531dd4e4d0549548"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "tests/certs/expired/server/server.csr",
+            "SPDXID": "SPDXRef-File-tests-certs-expired-server-server.csr",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "5d4683e2db14cf6f47d57ea6e45647a29b5693f3f723a891b2ef188c333de694"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": ".gitignore",
+            "SPDXID": "SPDXRef-File-.gitignore",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "0d87c78c285d5f3a9f83c7b9a09c42aa566c771a7e35d0da1ed0dabcd5831b6c"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "docs/_themes/flask_theme_support.py",
+            "SPDXID": "SPDXRef-File-docs-_themes-flask_theme_support.py",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "bba3677c6eeb99f678e808e90142a025b798b7658bac1ab4632591df8441d209"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "HISTORY.md",
+            "SPDXID": "SPDXRef-File-HISTORY.md",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "7ee222a17a09d6c33c50bc5247d7cf1455b207218f0127cae952a3c09006648b"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "docs/community/faq.rst",
+            "SPDXID": "SPDXRef-File-docs-community-faq.rst",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "b139b9c8c6cb84e2092852fe0e60fd53f419bb6662918dccd766a39f3b7a9693"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "src/requests/models.py",
+            "SPDXID": "SPDXRef-File-src-requests-models.py",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "24733d202d7636316123a24a838d51d5d664326798dfc840695876eb2989fadc"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": ".pre-commit-config.yaml",
+            "SPDXID": "SPDXRef-File-.pre-commit-config.yaml",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "73bf10318e91ee6493bfda42659d3b5fc08022761957829008c53a055881ebdb"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": ".github/ISSUE_TEMPLATE/Bug_report.md",
+            "SPDXID": "SPDXRef-File-.github-ISSUE_TEMPLATE-Bug_report.md",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "4887dbec17c9e2fd703c0c8ae3e20882f9be53f7fe4a36d61c130838576afe35"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": ".github/CODE_OF_CONDUCT.md",
+            "SPDXID": "SPDXRef-File-.github-CODE_OF_CONDUCT.md",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "0216c86755ca264f605593cc82deadc13c3e84b97a60bf461fcda7b4b8b23242"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "tests/certs/mtls/client/Makefile",
+            "SPDXID": "SPDXRef-File-tests-certs-mtls-client-Makefile",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "ec153d8d19a0987a41977094bc8b01cbca1a8b5adc589f1bd8d9bec562bdb9d8"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": ".github/CODEOWNERS",
+            "SPDXID": "SPDXRef-File-.github-CODEOWNERS",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "1231f289a3ee8071f98af61151a3164ae4a3b50f9608791c6b786650deb66de2"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "README.md",
+            "SPDXID": "SPDXRef-File-README.md",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "d89ac3c89f9eb04843a6139c1b49fe4846e5f21c6acbf3721c48d31dcb651ddf"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": ".git/hooks/pre-merge-commit.sample",
+            "SPDXID": "SPDXRef-File-.git-hooks-pre-merge-commit.sample",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "d3825a70337940ebbd0a5c072984e13245920cdf8898bd225c8d27a6dfc9cb53"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "docs/_themes/.gitignore",
+            "SPDXID": "SPDXRef-File-docs-_themes-.gitignore",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "f27660c4ec6efa86aac4d61036c5f495e9438805a6f63be44f17db003979a06f"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": ".github/CONTRIBUTING.md",
+            "SPDXID": "SPDXRef-File-.github-CONTRIBUTING.md",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "6ce203a20b7bc3c87eccdb9be5888bded1bcb7743a598b3cf91b7be65f41f4e0"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "testpub.pem",
+            "SPDXID": "SPDXRef-File-testpub.pem",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "1a6613b6583065284e9c0d8cb79c0fa3110242338598ef3e1b8dc099b1a652d3"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": ".github/SECURITY.md",
+            "SPDXID": "SPDXRef-File-.github-SECURITY.md",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "4d8f1a61f94c22df37414ac13a0e5c1e5e40fcb563797cf996b20dc50a85e5d0"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "ext/requests-logo.ai",
+            "SPDXID": "SPDXRef-File-ext-requests-logo.ai",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "ada5899494a2fbd06b6a1a6062dc1b755eaef9dee8ae833a864712b1671fd604"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "tests/certs/expired/ca/ca.cnf",
+            "SPDXID": "SPDXRef-File-tests-certs-expired-ca-ca.cnf",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "238414b5b06448a4d2f37fcf2e0e771e49e84a172a1c6dc3efec5866d24da3fe"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "AUTHORS.rst",
+            "SPDXID": "SPDXRef-File-AUTHORS.rst",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "b9a504ea36f91199a575992750052ce646c36ca11167394ced7774544516fedf"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "tests/certs/mtls/client/ca/Makefile",
+            "SPDXID": "SPDXRef-File-tests-certs-mtls-client-ca-Makefile",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "09ab0ff83129203660d5ad489618764524f6af7fa4d9586ca5bdb0f68d1ca822"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "tests/certs/mtls/client/ca/ca.crt",
+            "SPDXID": "SPDXRef-File-tests-certs-mtls-client-ca-ca.crt",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "1407cb9c2502bf453ffa3f54cb846022f161a46b73fe4caf436157d95ad93367"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "tests/test_requests.py",
+            "SPDXID": "SPDXRef-File-tests-test_requests.py",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "4cf9f82316f6b4183c720b089b6c100c0eea2da30557e4a6eef42c69b801228e"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": ".git/hooks/pre-applypatch.sample",
+            "SPDXID": "SPDXRef-File-.git-hooks-pre-applypatch.sample",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "e15c5b469ea3e0a695bea6f2c82bcf8e62821074939ddd85b77e0007ff165475"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "docs/_static/custom.css",
+            "SPDXID": "SPDXRef-File-docs-_static-custom.css",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "ec1d99bc2726a46b938e2342cde4c4aa39b3fcab99ce5957ab6893b22010b618"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "docs/.nojekyll",
+            "SPDXID": "SPDXRef-File-docs-.nojekyll",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "docs/community/out-there.rst",
+            "SPDXID": "SPDXRef-File-docs-community-out-there.rst",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "56158799844060f6ff016c0a08a540999e34da42319ad85a2f411dae35f56466"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "ext/requests-logo-compressed.png",
+            "SPDXID": "SPDXRef-File-ext-requests-logo-compressed.png",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "c9ea2210c884700dc0f05266170c056c1dbae2181f68a74c5b8d63ac042c9263"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": ".github/FUNDING.yml",
+            "SPDXID": "SPDXRef-File-.github-FUNDING.yml",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "203cc6fc6930c94572f841b0924808acc9ad4f1c0cbb1574875221e4a22fc815"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": ".readthedocs.yaml",
+            "SPDXID": "SPDXRef-File-.readthedocs.yaml",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "9a6fe18b0b5e1162bda0b7628214c94aa82ab725e4eac91af4b7c536622d296d"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "ext/ss.png",
+            "SPDXID": "SPDXRef-File-ext-ss.png",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "c769ab657e25fbda10791d30c9c114d40ea84da2a23a7b446c7adbf9c2569fcc"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "src/requests/auth.py",
+            "SPDXID": "SPDXRef-File-src-requests-auth.py",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "2875df9db347d857b8add1892b7ada2f83b79f1917c9494b8b324904482e8527"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "tests/certs/README.md",
+            "SPDXID": "SPDXRef-File-tests-certs-README.md",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "a902fe53d4cc6224b59532e47d94fc42726b2227462e801538aa50a7888d38f3"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": ".github/workflows/close-issues.yml",
+            "SPDXID": "SPDXRef-File-.github-workflows-close-issues.yml",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "a78f5d43c521f4cecdfb759cbebdb83142d1b2001bdc6ca05fba83a81dc92137"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "src/requests/api.py",
+            "SPDXID": "SPDXRef-File-src-requests-api.py",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "fd96fd39aeedcd5222cd32b016b3e30c463d7a3b66fce9d2444467003c46b10b"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "src/requests/__init__.py",
+            "SPDXID": "SPDXRef-File-src-requests-__init__.py",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "9800bf41cb6bfff678df0ffeafd121a2abd5b49954d7df92f28e59e1e2d6be64"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": ".git/HEAD",
+            "SPDXID": "SPDXRef-File-.git-HEAD",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "28d25bf82af4c0e2b72f50959b2beb859e3e60b9630a5e8c603dad4ddb2b6e80"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "requirements-dev.txt",
+            "SPDXID": "SPDXRef-File-requirements-dev.txt",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "74d9e52c4dda032917c64ede457adc2885e4b66ddbfaefac89eada149384f81d"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "src/requests/utils.py",
+            "SPDXID": "SPDXRef-File-src-requests-utils.py",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "91302671e03442e8247a091049fc0d725dc4970f5306bbbb167f128f75d67309"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": ".git/hooks/pre-receive.sample",
+            "SPDXID": "SPDXRef-File-.git-hooks-pre-receive.sample",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "a4c3d2b9c7bb3fd8d1441c31bd4ee71a595d66b44fcf49ddb310252320169989"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "tests/test_structures.py",
+            "SPDXID": "SPDXRef-File-tests-test_structures.py",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "f7b80e00888105ae80312203279e0cf9256726740bcaa15c6cee7c2c07d33d60"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "src/requests/packages.py",
+            "SPDXID": "SPDXRef-File-src-requests-packages.py",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "fe0d2067af355320252874631fa91a9db6a8c71d9e01beaacdc5e2383c932287"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "docs/_themes/LICENSE",
+            "SPDXID": "SPDXRef-File-docs-_themes-LICENSE",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "6afc9d58f919ab52f4806a895a37aefe4d263f8e52278e6a1e87c5d7ec82299c"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": ".github/ISSUE_TEMPLATE/Feature_request.md",
+            "SPDXID": "SPDXRef-File-.github-ISSUE_TEMPLATE-Feature_request.md",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "97d416c863d8090ae33909cbf90693aca37a23108d5d8e30003b28eaa7b64e40"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "docs/api.rst",
+            "SPDXID": "SPDXRef-File-docs-api.rst",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "203258594d351b17b4696b1d06ad33805a0e06ee2dd582939987ac157213fe52"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "docs/dev/contributing.rst",
+            "SPDXID": "SPDXRef-File-docs-dev-contributing.rst",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "66128c658842a60c35af98a7c474d37e877b2d6222b0c09695cef2a28500f97a"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "tests/certs/expired/server/Makefile",
+            "SPDXID": "SPDXRef-File-tests-certs-expired-server-Makefile",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "1c8cf9d72554a803d3b267d9df9c5e54db2e05d2fbd6b16d745f140bfcf74a24"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": ".git/objects/pack/pack-407b914915af288cbb2d90a35254f4669373660f.idx",
+            "SPDXID": "SPDXRef-File-.git-objects-pack-pack-407b914915af288cbb2d90a35254f4669373660f.idx",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "ca1f2f29251f3a0023a3c1e69f9c99f355619b984af73003026d86f1bb121725"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "tests/certs/valid/server/Makefile",
+            "SPDXID": "SPDXRef-File-tests-certs-valid-server-Makefile",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "68541e2b167a72cf00a57c0978750b11ff830dc85bdda99eebe50f7791768a03"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "src/requests/sessions.py",
+            "SPDXID": "SPDXRef-File-src-requests-sessions.py",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "81b9a5b0d4a2f7ab088a0d26aed1f3640653fdf388593a1ef989d6eefe69b4a2"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "tests/certs/expired/server/server.key",
+            "SPDXID": "SPDXRef-File-tests-certs-expired-server-server.key",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "acce64eae44a4073909c97e5929a1a319c947f4f37e4b933c1dcd805e59c8516"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "tests/utils.py",
+            "SPDXID": "SPDXRef-File-tests-utils.py",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "cfaec86690eba62573c8c730a121332837809333fb2b1006a20e2e8f4d34d4de"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": ".git/hooks/applypatch-msg.sample",
+            "SPDXID": "SPDXRef-File-.git-hooks-applypatch-msg.sample",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "0223497a0b8b033aa58a3a521b8629869386cf7ab0e2f101963d328aa62193f7"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "docs/index.rst",
+            "SPDXID": "SPDXRef-File-docs-index.rst",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "8875cac72c68c693ff7c7f06e095702a29f708b81b9ff23b1aab2f01aa27f1d8"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": ".github/workflows/lint.yml",
+            "SPDXID": "SPDXRef-File-.github-workflows-lint.yml",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "77a9f55d5ad1cbe6d07212d89576a01c19fbadacd08512544014fc53e01db6cb"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "tests/certs/mtls/client/client.pem",
+            "SPDXID": "SPDXRef-File-tests-certs-mtls-client-client.pem",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "d8601d058cf8958fff16250037b38a83e5eb93cc0507b4e083860ca9214023ea"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": ".git/logs/refs/remotes/origin/HEAD",
+            "SPDXID": "SPDXRef-File-.git-logs-refs-remotes-origin-HEAD",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "7adcdc3ce6539e13825ed1f9e8117dcc787a4d00f65af8c3b09a0c83808d49a6"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": ".github/ISSUE_TEMPLATE.md",
+            "SPDXID": "SPDXRef-File-.github-ISSUE_TEMPLATE.md",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "24ac47c35e70fb3c7dfb2b768ac3ae49f6ea997b96beca4fe489f279429509ca"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "Makefile",
+            "SPDXID": "SPDXRef-File-Makefile",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "c31f5628de71af324c7db9b61579e8a287caae87f76586d70994a7dc86964ec7"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "witness_nettrace_proxy/ca_cert.pem",
+            "SPDXID": "SPDXRef-File-witness_nettrace_proxy-ca_cert.pem",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "95e50c09e7d0c878951d88ca8cc6e9d5759463bed36b2ec1542b7d49cc501994"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": ".git/hooks/commit-msg.sample",
+            "SPDXID": "SPDXRef-File-.git-hooks-commit-msg.sample",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "1f74d5e9292979b573ebd59741d46cb93ff391acdd083d340b94370753d92437"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "docs/conf.py",
+            "SPDXID": "SPDXRef-File-docs-conf.py",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "e1e73c212613ea5c4ae94f1504a76a8f32791459b78c73c74ccf816bbe53272f"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": ".github/dependabot.yml",
+            "SPDXID": "SPDXRef-File-.github-dependabot.yml",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "a078b8ce767c5341ef0eae3556c9c976a30fb1bf76ac64c9578869fd6ac83536"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": ".github/ISSUE_TEMPLATE/Custom.md",
+            "SPDXID": "SPDXRef-File-.github-ISSUE_TEMPLATE-Custom.md",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "3f1a2a5591714c25485a4ce6679cec328962f4fd223ce02e2ddeaf43c86f1496"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "docs/community/release-process.rst",
+            "SPDXID": "SPDXRef-File-docs-community-release-process.rst",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "a7a8e987bf671a79e4b44e8722b7446fd429922e7d0bde50dd2fba578b966485"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "ext/requests-logo.png",
+            "SPDXID": "SPDXRef-File-ext-requests-logo.png",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "c9ea2210c884700dc0f05266170c056c1dbae2181f68a74c5b8d63ac042c9263"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "docs/_templates/sidebarintro.html",
+            "SPDXID": "SPDXRef-File-docs-_templates-sidebarintro.html",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "8f12aea53eca6a91f008b9fee139918cbda40effd502ec1d671f0d9545faf3e1"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "tests/testserver/server.py",
+            "SPDXID": "SPDXRef-File-tests-testserver-server.py",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "15a9092cc5edb005af6732097555515c4b82093d9394f6463c966259f83068c3"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": ".github/workflows/lock-issues.yml",
+            "SPDXID": "SPDXRef-File-.github-workflows-lock-issues.yml",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "f6d91c3d23356a571894f8a515a63ee5fc609362762fec2b141350175eeba3cc"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "src/requests/adapters.py",
+            "SPDXID": "SPDXRef-File-src-requests-adapters.py",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "5aecc78b49b5c39fbf7c4a5ba18ca4195b44ed26b34d91e1039359605e97f06e"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "tests/certs/valid/server/cert.cnf",
+            "SPDXID": "SPDXRef-File-tests-certs-valid-server-cert.cnf",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "605014e20661c4d3e5ff5869e5453018e09329a3b7a987d26c8b785db3ee7479"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "tests/test_adapters.py",
+            "SPDXID": "SPDXRef-File-tests-test_adapters.py",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "28f88de1601bcde6a9f178b98452d6b90c55f5d1a6c9a2c15622cd760fbd4c91"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "tests/test_utils.py",
+            "SPDXID": "SPDXRef-File-tests-test_utils.py",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "749c36bc574e3e796ddb78bbdc91b0d92fccf703a39c6d21f5afbfa7b28f50f8"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "testkey.pem",
+            "SPDXID": "SPDXRef-File-testkey.pem",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "b3d68fa4af5140530791850cd38ecc0a6b38e4a3ffd491ee4f873383d6079fcc"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "setup.py",
+            "SPDXID": "SPDXRef-File-setup.py",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "1728c11af4134997015ab07547544852e2f7e103c79a5b0486a8486799f50e0a"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "tests/test_testserver.py",
+            "SPDXID": "SPDXRef-File-tests-test_testserver.py",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "90ac39d6cb9c0fbaa94c5aa59646bf6097829ae73e50ac284a41135188f95d33"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "src/requests/structures.py",
+            "SPDXID": "SPDXRef-File-src-requests-structures.py",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "f886e6855cf4e92fb968f499b94b6167afba0fd5ce8d1b935c739a6d8d38d573"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": ".git/hooks/update.sample",
+            "SPDXID": "SPDXRef-File-.git-hooks-update.sample",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "8d5f2fa83e103cf08b57eaa67521df9194f45cbdbcb37da52ad586097a14d106"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "tests/certs/expired/README.md",
+            "SPDXID": "SPDXRef-File-tests-certs-expired-README.md",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "80690554d2353ab1c348bee8df833bdf7b3cd1cb8d728b4380221f34b5881eeb"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "src/requests/exceptions.py",
+            "SPDXID": "SPDXRef-File-src-requests-exceptions.py",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "9de3a402478aedebd939faa1b48495b0714894e888267e65071b52d014c56a50"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "docs/user/authentication.rst",
+            "SPDXID": "SPDXRef-File-docs-user-authentication.rst",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "5878d62d3929b057f8a6008f21641ae9fae0515b5ed6174da7ac763e36ccdae6"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "MANIFEST.in",
+            "SPDXID": "SPDXRef-File-MANIFEST.in",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "e44e033d6fb54718d34926991771eef6e0eadcddd36ce9e2ad06a1533cbbc517"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "tests/certs/mtls/client/ca/ca.srl",
+            "SPDXID": "SPDXRef-File-tests-certs-mtls-client-ca-ca.srl",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "c80a955513b5fed04be2ee78804153be8cf070c4145b83c9dbb6331c2e6c2013"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "src/requests/status_codes.py",
+            "SPDXID": "SPDXRef-File-src-requests-status_codes.py",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "889500780db96da4ddc3ee8f7c3d1e178aa1a48343251248fb268cab1b382c42"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "tests/certs/mtls/client/cert.cnf",
+            "SPDXID": "SPDXRef-File-tests-certs-mtls-client-cert.cnf",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "b7cbb0ae5934dd229cba5cbf60869a33d352bf9c2799705f99f74e0685148acf"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "witness_nettrace_proxy/ca_key.pem",
+            "SPDXID": "SPDXRef-File-witness_nettrace_proxy-ca_key.pem",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "a131434ffa2d25ce71ec358d826b64e86b356e60acf8601f12bca2fc9f6f6ae2"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "tox.ini",
+            "SPDXID": "SPDXRef-File-tox.ini",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "65aeb46c94fc5723a9764bb029fdb448539658fe47d3a39550a829b2383804fd"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "tests/test_help.py",
+            "SPDXID": "SPDXRef-File-tests-test_help.py",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "1c2ac8ca9f4986429717791df766122b23e1fe90aa621318380ccf1f8e83d0f6"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "src/requests/compat.py",
+            "SPDXID": "SPDXRef-File-src-requests-compat.py",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "27bb088d1e97a031a9e494d5ccec642b97d2a145546bf3e373b8916610161a62"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "tests/certs/expired/ca/ca.srl",
+            "SPDXID": "SPDXRef-File-tests-certs-expired-ca-ca.srl",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "c80a955513b5fed04be2ee78804153be8cf070c4145b83c9dbb6331c2e6c2013"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "src/requests/cookies.py",
+            "SPDXID": "SPDXRef-File-src-requests-cookies.py",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "6cd8be8aa123e0d3d9d34fa86feac7bf392f39bccdde5129830de0ea9692dd7c"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": ".github/workflows/codeql-analysis.yml",
+            "SPDXID": "SPDXRef-File-.github-workflows-codeql-analysis.yml",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "4df2198c54ffc21dd0c7b1f729c26c00906194c93277ed5f973aa483aa98148c"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": ".github/workflows/run-tests.yml",
+            "SPDXID": "SPDXRef-File-.github-workflows-run-tests.yml",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "97a3cdabf5848186cc6a059d799556b2d3b6d415dde75f94ba4101af77bded75"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": ".github/workflows/publish.yml",
+            "SPDXID": "SPDXRef-File-.github-workflows-publish.yml",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "2762b1105580542c4e053da9c956c7efd1e70535c9ba1460b8bb06d119d1570d"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": ".git/hooks/push-to-checkout.sample",
+            "SPDXID": "SPDXRef-File-.git-hooks-push-to-checkout.sample",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "a53d0741798b287c6dd7afa64aee473f305e65d3f49463bb9d7408ec3b12bf5f"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": ".git/logs/refs/heads/main",
+            "SPDXID": "SPDXRef-File-.git-logs-refs-heads-main",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "7adcdc3ce6539e13825ed1f9e8117dcc787a4d00f65af8c3b09a0c83808d49a6"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": ".git/hooks/post-update.sample",
+            "SPDXID": "SPDXRef-File-.git-hooks-post-update.sample",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "81765af2daef323061dcbc5e61fc16481cb74b3bac9ad8a174b186523586f6c5"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": ".git/objects/pack/pack-407b914915af288cbb2d90a35254f4669373660f.pack",
+            "SPDXID": "SPDXRef-File-.git-objects-pack-pack-407b914915af288cbb2d90a35254f4669373660f.pack",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "1b4c80850ddd7e323e0895f0cb04362cffb1cbf0c9567a35db59504be22608db"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "tests/certs/mtls/client/ca/ca.cnf",
+            "SPDXID": "SPDXRef-File-tests-certs-mtls-client-ca-ca.cnf",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "238414b5b06448a4d2f37fcf2e0e771e49e84a172a1c6dc3efec5866d24da3fe"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "tests/certs/expired/ca/Makefile",
+            "SPDXID": "SPDXRef-File-tests-certs-expired-ca-Makefile",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "09ab0ff83129203660d5ad489618764524f6af7fa4d9586ca5bdb0f68d1ca822"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "ext/psf.png",
+            "SPDXID": "SPDXRef-File-ext-psf.png",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "7a0bf447edc2b67b9138d1ffa64b2f62af05c4dd2da37429584e6b3f5ac84683"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "src/requests/__version__.py",
+            "SPDXID": "SPDXRef-File-src-requests-__version__.py",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "a97068e69d7773b404ee10016e8267b3d045cb37788bdea2da9d30ef210ed5e9"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "src/requests/certs.py",
+            "SPDXID": "SPDXRef-File-src-requests-certs.py",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "fd9c6b83359cef90ff6c4eeeab8dcc2388da382ebca7d00a499b3c0b434a87e4"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "ext/requests-logo.svg",
+            "SPDXID": "SPDXRef-File-ext-requests-logo.svg",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "b1e7fd86516c1e925191a41ee1efdb2489654548c7756881c311f50b79233af0"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "docs/dev/authors.rst",
+            "SPDXID": "SPDXRef-File-docs-dev-authors.rst",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "711bde324e69bf390c914fcb1e5d4aa17174deb2093b8c7865a7103391716d07"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": ".git/objects/pack/pack-407b914915af288cbb2d90a35254f4669373660f.rev",
+            "SPDXID": "SPDXRef-File-.git-objects-pack-pack-407b914915af288cbb2d90a35254f4669373660f.rev",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "96b48c3cd63fb18f3bbb99eb9932941550853b51edc070fa68a52f047135c0b0"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "tests/certs/expired/server/server.pem",
+            "SPDXID": "SPDXRef-File-tests-certs-expired-server-server.pem",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "232cc4e13f97688281a03e6a555e93c3a7bd6cfda4604fdee085f4ac2556f2c2"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "src/requests/_internal_utils.py",
+            "SPDXID": "SPDXRef-File-src-requests-_internal_utils.py",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "3c85f736286cbff92db39e92e2304767a8b654e9998e3ca3547feca66b6ef149"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "tests/certs/valid/server/server.key",
+            "SPDXID": "SPDXRef-File-tests-certs-valid-server-server.key",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "5457b89bc1af7de6829d78c9baa639ddea79b4e9dffe7933166c12836f9345c2"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": ".git/hooks/pre-push.sample",
+            "SPDXID": "SPDXRef-File-.git-hooks-pre-push.sample",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "ecce9c7e04d3f5dd9d8ada81753dd1d549a9634b26770042b58dda00217d086a"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "docs/make.bat",
+            "SPDXID": "SPDXRef-File-docs-make.bat",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "d65d3af3fd9f81bfa4dd7b773d057125af36f4df5e5bc4234fe3127ccf6c6dcc"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "tests/certs/mtls/README.md",
+            "SPDXID": "SPDXRef-File-tests-certs-mtls-README.md",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "57dd4ec5bd44f1d2e1bc2de7e6cb292eb62f2236d34fd889a46d81a19dbde9f7"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": ".git/refs/heads/main",
+            "SPDXID": "SPDXRef-File-.git-refs-heads-main",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "edcd8a132c6228c08b31dbae3787659d842b384dfe1f2191d0c9fc62b702a70d"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "tests/compat.py",
+            "SPDXID": "SPDXRef-File-tests-compat.py",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "d58ff5e3167de0140a667cc51427f809c552e485875c95b9dad43ce13ba15083"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "ext/ss-compressed.png",
+            "SPDXID": "SPDXRef-File-ext-ss-compressed.png",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "c769ab657e25fbda10791d30c9c114d40ea84da2a23a7b446c7adbf9c2569fcc"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "docs/community/support.rst",
+            "SPDXID": "SPDXRef-File-docs-community-support.rst",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "7f1a8ee725fce4ef5bc51568d51b54ba1611e518975463bb11d2cd2c20309fd0"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": ".git/index",
+            "SPDXID": "SPDXRef-File-.git-index",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "ffe3f73f1c569e81c0d285a72f6aeb8c14dca48972dcf69dfa9fd200e9c2b1de"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": ".git/hooks/sendemail-validate.sample",
+            "SPDXID": "SPDXRef-File-.git-hooks-sendemail-validate.sample",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "44ebfc923dc5466bc009602f0ecf067b9c65459abfe8868ddc49b78e6ced7a92"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "tests/conftest.py",
+            "SPDXID": "SPDXRef-File-tests-conftest.py",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "c31d83bf96fbf585c0d497fbf21a39b2e69411948ddb947e5ad51e5857976c5c"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "tests/test_lowlevel.py",
+            "SPDXID": "SPDXRef-File-tests-test_lowlevel.py",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "db5fac7340c49c49551e3e41679a8ee6e385c56054f84073932354a8da87df65"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "pyproject.toml",
+            "SPDXID": "SPDXRef-File-pyproject.toml",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "e4b7b6ede668c7ccf3caa9e9c14fe1c387fe1f4f433b93e24f3c4220f497c9ff"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "tests/test_hooks.py",
+            "SPDXID": "SPDXRef-File-tests-test_hooks.py",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "a9e5163f538543a660be3b06650cd0b803ff0c503f5948f66b6fc50ede38109c"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "src/requests/hooks.py",
+            "SPDXID": "SPDXRef-File-src-requests-hooks.py",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "f5fad88402ec2c19071fbe86f8762abc0becb1296ed42d5becbebc700b3e1398"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "tests/certs/expired/ca/ca-private.key",
+            "SPDXID": "SPDXRef-File-tests-certs-expired-ca-ca-private.key",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "9a36bafea981da2dcd9a218b7ce23c778acdbee0009c0720531dd4e4d0549548"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": ".git/refs/remotes/origin/HEAD",
+            "SPDXID": "SPDXRef-File-.git-refs-remotes-origin-HEAD",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "2bb6a24aa0fc6c484100f5d51a29bbad841cd2c755f5d93faa204e5dbb4eb2b4"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": "ext/kr-compressed.png",
+            "SPDXID": "SPDXRef-File-ext-kr-compressed.png",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "6607917997aaa337f9ab9f1d3ff54d0a2c3177e5e10444d1e2d34a3912632871"
+                }
+            ],
+            "copyrightText": "NONE"
+        },
+        {
+            "fileName": ".git/hooks/pre-commit.sample",
+            "SPDXID": "SPDXRef-File-.git-hooks-pre-commit.sample",
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "f9af7d95eb1231ecf2eba9770fedfa8d4797a12b02d7240e98d568201251244a"
+                }
+            ],
+            "copyrightText": "NONE"
+        }
+    ],
+    "relationships": [
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-pkg:pypi/setuptools@82.0.1",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-docs-_templates-sidebarlogo.html",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-.git-hooks-pre-rebase.sample",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-src-requests-help.py",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-.git-description",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-docs-community-vulnerabilities.rst",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-tests-certs-valid-server-server.pem",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-ext-flower-of-life.jpg",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-NOTICE",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-.git-hooks-prepare-commit-msg.sample",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-tests-certs-mtls-client-client.csr",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-docs-Makefile",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-docs-community-updates.rst",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-tests-testserver-__init__.py",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-tests-__init__.py",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-docs-_static-requests-sidebar.png",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-tests-test_packages.py",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-tests-certs-mtls-client-client.key",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-.witness.yaml",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-ext-LICENSE",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-docs-requirements.txt",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-.coveragerc",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-docs-user-advanced.rst",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-ext-psf-compressed.png",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-docs-_templates-hacks.html",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-.git-logs-HEAD",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-tests-certs-expired-ca-ca.crt",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-.git-blame-ignore-revs",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-ext-kr.png",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-.git-hooks-fsmonitor-watchman.sample",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-tests-certs-valid-server-server.csr",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-.git-packed-refs",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-LICENSE",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-docs-community-recommended.rst",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-tests-certs-mtls-Makefile",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-.git-config",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-docs-user-quickstart.rst",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-.git-info-exclude",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-docs-user-install.rst",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-tests-certs-expired-Makefile",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-tests-certs-expired-server-cert.cnf",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-tests-certs-mtls-client-ca-ca-private.key",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-tests-certs-expired-server-server.csr",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-.gitignore",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-docs-_themes-flask_theme_support.py",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-HISTORY.md",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-docs-community-faq.rst",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-src-requests-models.py",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-.pre-commit-config.yaml",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-.github-ISSUE_TEMPLATE-Bug_report.md",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-.github-CODE_OF_CONDUCT.md",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-tests-certs-mtls-client-Makefile",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-.github-CODEOWNERS",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-README.md",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-.git-hooks-pre-merge-commit.sample",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-docs-_themes-.gitignore",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-.github-CONTRIBUTING.md",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-testpub.pem",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-.github-SECURITY.md",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-ext-requests-logo.ai",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-tests-certs-expired-ca-ca.cnf",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-AUTHORS.rst",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-tests-certs-mtls-client-ca-Makefile",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-tests-certs-mtls-client-ca-ca.crt",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-tests-test_requests.py",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-.git-hooks-pre-applypatch.sample",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-docs-_static-custom.css",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-docs-.nojekyll",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-docs-community-out-there.rst",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-ext-requests-logo-compressed.png",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-.github-FUNDING.yml",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-.readthedocs.yaml",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-ext-ss.png",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-src-requests-auth.py",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-tests-certs-README.md",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-.github-workflows-close-issues.yml",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-src-requests-api.py",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-src-requests-__init__.py",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-.git-HEAD",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-requirements-dev.txt",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-src-requests-utils.py",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-.git-hooks-pre-receive.sample",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-tests-test_structures.py",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-src-requests-packages.py",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-docs-_themes-LICENSE",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-.github-ISSUE_TEMPLATE-Feature_request.md",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-docs-api.rst",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-docs-dev-contributing.rst",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-tests-certs-expired-server-Makefile",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-.git-objects-pack-pack-407b914915af288cbb2d90a35254f4669373660f.idx",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-tests-certs-valid-server-Makefile",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-src-requests-sessions.py",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-tests-certs-expired-server-server.key",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-tests-utils.py",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-.git-hooks-applypatch-msg.sample",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-docs-index.rst",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-.github-workflows-lint.yml",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-tests-certs-mtls-client-client.pem",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-.git-logs-refs-remotes-origin-HEAD",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-.github-ISSUE_TEMPLATE.md",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-Makefile",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-witness_nettrace_proxy-ca_cert.pem",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-.git-hooks-commit-msg.sample",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-docs-conf.py",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-.github-dependabot.yml",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-.github-ISSUE_TEMPLATE-Custom.md",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-docs-community-release-process.rst",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-ext-requests-logo.png",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-docs-_templates-sidebarintro.html",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-tests-testserver-server.py",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-.github-workflows-lock-issues.yml",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-src-requests-adapters.py",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-tests-certs-valid-server-cert.cnf",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-tests-test_adapters.py",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-tests-test_utils.py",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-testkey.pem",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-setup.py",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-tests-test_testserver.py",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-src-requests-structures.py",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-.git-hooks-update.sample",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-tests-certs-expired-README.md",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-src-requests-exceptions.py",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-docs-user-authentication.rst",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-MANIFEST.in",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-tests-certs-mtls-client-ca-ca.srl",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-src-requests-status_codes.py",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-tests-certs-mtls-client-cert.cnf",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-witness_nettrace_proxy-ca_key.pem",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-tox.ini",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-tests-test_help.py",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-src-requests-compat.py",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-tests-certs-expired-ca-ca.srl",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-src-requests-cookies.py",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-.github-workflows-codeql-analysis.yml",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-.github-workflows-run-tests.yml",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-.github-workflows-publish.yml",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-.git-hooks-push-to-checkout.sample",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-.git-logs-refs-heads-main",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-.git-hooks-post-update.sample",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-.git-objects-pack-pack-407b914915af288cbb2d90a35254f4669373660f.pack",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-tests-certs-mtls-client-ca-ca.cnf",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-tests-certs-expired-ca-Makefile",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-ext-psf.png",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-src-requests-__version__.py",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-src-requests-certs.py",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-ext-requests-logo.svg",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-docs-dev-authors.rst",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-.git-objects-pack-pack-407b914915af288cbb2d90a35254f4669373660f.rev",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-tests-certs-expired-server-server.pem",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-src-requests-_internal_utils.py",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-tests-certs-valid-server-server.key",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-.git-hooks-pre-push.sample",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-docs-make.bat",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-tests-certs-mtls-README.md",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-.git-refs-heads-main",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-tests-compat.py",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-ext-ss-compressed.png",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-docs-community-support.rst",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-.git-index",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-.git-hooks-sendemail-validate.sample",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-tests-conftest.py",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-tests-test_lowlevel.py",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-pyproject.toml",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-tests-test_hooks.py",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-src-requests-hooks.py",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-tests-certs-expired-ca-ca-private.key",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-.git-refs-remotes-origin-HEAD",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-ext-kr-compressed.png",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relatedSpdxElement": "SPDXRef-File-.git-hooks-pre-commit.sample",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DOCUMENT",
+            "relatedSpdxElement": "SPDXRef-pkg:generic/sbomit-sbom@0.0.1",
+            "relationshipType": "DESCRIBES"
+        }
+    ]
+}

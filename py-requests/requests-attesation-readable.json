@@ -1,0 +1,1252 @@
+{
+  "_type": "https://in-toto.io/Statement/v0.1",
+  "subject": [],
+  "predicateType": "https://witness.testifysec.com/attestation-collection/v0.1",
+  "predicate": {
+    "name": "build",
+    "attestations": [
+      {
+        "type": "https://witness.dev/attestations/material/v0.1",
+        "attestation": {
+          ".coveragerc": {
+            "sha256": "8ac66b93028230c815ef67e0b38e74c65cc965a87ca3a49c16a8b8d7f641186d"
+          },
+          ".git-blame-ignore-revs": {
+            "sha256": "cb1e75b75e5842448557aa313bb77bb5ab2e4dc80a2a5cd5a2804a1afbf97aea"
+          },
+          ".git/HEAD": {
+            "sha256": "28d25bf82af4c0e2b72f50959b2beb859e3e60b9630a5e8c603dad4ddb2b6e80"
+          },
+          ".git/config": {
+            "sha256": "17485513720e463bea02d1d97da76068c0169e0024038e00b95b947d30c7747c"
+          },
+          ".git/description": {
+            "sha256": "85ab6c163d43a17ea9cf7788308bca1466f1b0a8d1cc92e26e9bf63da4062aee"
+          },
+          ".git/hooks/applypatch-msg.sample": {
+            "sha256": "0223497a0b8b033aa58a3a521b8629869386cf7ab0e2f101963d328aa62193f7"
+          },
+          ".git/hooks/commit-msg.sample": {
+            "sha256": "1f74d5e9292979b573ebd59741d46cb93ff391acdd083d340b94370753d92437"
+          },
+          ".git/hooks/fsmonitor-watchman.sample": {
+            "sha256": "e0549964e93897b519bd8e333c037e51fff0f88ba13e086a331592bf801fa1d0"
+          },
+          ".git/hooks/post-update.sample": {
+            "sha256": "81765af2daef323061dcbc5e61fc16481cb74b3bac9ad8a174b186523586f6c5"
+          },
+          ".git/hooks/pre-applypatch.sample": {
+            "sha256": "e15c5b469ea3e0a695bea6f2c82bcf8e62821074939ddd85b77e0007ff165475"
+          },
+          ".git/hooks/pre-commit.sample": {
+            "sha256": "f9af7d95eb1231ecf2eba9770fedfa8d4797a12b02d7240e98d568201251244a"
+          },
+          ".git/hooks/pre-merge-commit.sample": {
+            "sha256": "d3825a70337940ebbd0a5c072984e13245920cdf8898bd225c8d27a6dfc9cb53"
+          },
+          ".git/hooks/pre-push.sample": {
+            "sha256": "ecce9c7e04d3f5dd9d8ada81753dd1d549a9634b26770042b58dda00217d086a"
+          },
+          ".git/hooks/pre-rebase.sample": {
+            "sha256": "4febce867790052338076f4e66cc47efb14879d18097d1d61c8261859eaaa7b3"
+          },
+          ".git/hooks/pre-receive.sample": {
+            "sha256": "a4c3d2b9c7bb3fd8d1441c31bd4ee71a595d66b44fcf49ddb310252320169989"
+          },
+          ".git/hooks/prepare-commit-msg.sample": {
+            "sha256": "e9ddcaa4189fddd25ed97fc8c789eca7b6ca16390b2392ae3276f0c8e1aa4619"
+          },
+          ".git/hooks/push-to-checkout.sample": {
+            "sha256": "a53d0741798b287c6dd7afa64aee473f305e65d3f49463bb9d7408ec3b12bf5f"
+          },
+          ".git/hooks/sendemail-validate.sample": {
+            "sha256": "44ebfc923dc5466bc009602f0ecf067b9c65459abfe8868ddc49b78e6ced7a92"
+          },
+          ".git/hooks/update.sample": {
+            "sha256": "8d5f2fa83e103cf08b57eaa67521df9194f45cbdbcb37da52ad586097a14d106"
+          },
+          ".git/index": {
+            "sha256": "ffe3f73f1c569e81c0d285a72f6aeb8c14dca48972dcf69dfa9fd200e9c2b1de"
+          },
+          ".git/info/exclude": {
+            "sha256": "6671fe83b7a07c8932ee89164d1f2793b2318058eb8b98dc5c06ee0a5a3b0ec1"
+          },
+          ".git/logs/HEAD": {
+            "sha256": "7adcdc3ce6539e13825ed1f9e8117dcc787a4d00f65af8c3b09a0c83808d49a6"
+          },
+          ".git/logs/refs/heads/main": {
+            "sha256": "7adcdc3ce6539e13825ed1f9e8117dcc787a4d00f65af8c3b09a0c83808d49a6"
+          },
+          ".git/logs/refs/remotes/origin/HEAD": {
+            "sha256": "7adcdc3ce6539e13825ed1f9e8117dcc787a4d00f65af8c3b09a0c83808d49a6"
+          },
+          ".git/objects/pack/pack-407b914915af288cbb2d90a35254f4669373660f.idx": {
+            "sha256": "ca1f2f29251f3a0023a3c1e69f9c99f355619b984af73003026d86f1bb121725"
+          },
+          ".git/objects/pack/pack-407b914915af288cbb2d90a35254f4669373660f.pack": {
+            "sha256": "1b4c80850ddd7e323e0895f0cb04362cffb1cbf0c9567a35db59504be22608db"
+          },
+          ".git/objects/pack/pack-407b914915af288cbb2d90a35254f4669373660f.rev": {
+            "sha256": "96b48c3cd63fb18f3bbb99eb9932941550853b51edc070fa68a52f047135c0b0"
+          },
+          ".git/packed-refs": {
+            "sha256": "a247ee5771a8a0942badd183b7326d6dcd899703826c7a891a5a8aded1ca05f1"
+          },
+          ".git/refs/heads/main": {
+            "sha256": "edcd8a132c6228c08b31dbae3787659d842b384dfe1f2191d0c9fc62b702a70d"
+          },
+          ".git/refs/remotes/origin/HEAD": {
+            "sha256": "2bb6a24aa0fc6c484100f5d51a29bbad841cd2c755f5d93faa204e5dbb4eb2b4"
+          },
+          ".github/CODEOWNERS": {
+            "sha256": "1231f289a3ee8071f98af61151a3164ae4a3b50f9608791c6b786650deb66de2"
+          },
+          ".github/CODE_OF_CONDUCT.md": {
+            "sha256": "0216c86755ca264f605593cc82deadc13c3e84b97a60bf461fcda7b4b8b23242"
+          },
+          ".github/CONTRIBUTING.md": {
+            "sha256": "6ce203a20b7bc3c87eccdb9be5888bded1bcb7743a598b3cf91b7be65f41f4e0"
+          },
+          ".github/FUNDING.yml": {
+            "sha256": "203cc6fc6930c94572f841b0924808acc9ad4f1c0cbb1574875221e4a22fc815"
+          },
+          ".github/ISSUE_TEMPLATE.md": {
+            "sha256": "24ac47c35e70fb3c7dfb2b768ac3ae49f6ea997b96beca4fe489f279429509ca"
+          },
+          ".github/ISSUE_TEMPLATE/Bug_report.md": {
+            "sha256": "4887dbec17c9e2fd703c0c8ae3e20882f9be53f7fe4a36d61c130838576afe35"
+          },
+          ".github/ISSUE_TEMPLATE/Custom.md": {
+            "sha256": "3f1a2a5591714c25485a4ce6679cec328962f4fd223ce02e2ddeaf43c86f1496"
+          },
+          ".github/ISSUE_TEMPLATE/Feature_request.md": {
+            "sha256": "97d416c863d8090ae33909cbf90693aca37a23108d5d8e30003b28eaa7b64e40"
+          },
+          ".github/SECURITY.md": {
+            "sha256": "4d8f1a61f94c22df37414ac13a0e5c1e5e40fcb563797cf996b20dc50a85e5d0"
+          },
+          ".github/dependabot.yml": {
+            "sha256": "a078b8ce767c5341ef0eae3556c9c976a30fb1bf76ac64c9578869fd6ac83536"
+          },
+          ".github/workflows/close-issues.yml": {
+            "sha256": "a78f5d43c521f4cecdfb759cbebdb83142d1b2001bdc6ca05fba83a81dc92137"
+          },
+          ".github/workflows/codeql-analysis.yml": {
+            "sha256": "4df2198c54ffc21dd0c7b1f729c26c00906194c93277ed5f973aa483aa98148c"
+          },
+          ".github/workflows/lint.yml": {
+            "sha256": "77a9f55d5ad1cbe6d07212d89576a01c19fbadacd08512544014fc53e01db6cb"
+          },
+          ".github/workflows/lock-issues.yml": {
+            "sha256": "f6d91c3d23356a571894f8a515a63ee5fc609362762fec2b141350175eeba3cc"
+          },
+          ".github/workflows/publish.yml": {
+            "sha256": "2762b1105580542c4e053da9c956c7efd1e70535c9ba1460b8bb06d119d1570d"
+          },
+          ".github/workflows/run-tests.yml": {
+            "sha256": "97a3cdabf5848186cc6a059d799556b2d3b6d415dde75f94ba4101af77bded75"
+          },
+          ".gitignore": {
+            "sha256": "0d87c78c285d5f3a9f83c7b9a09c42aa566c771a7e35d0da1ed0dabcd5831b6c"
+          },
+          ".pre-commit-config.yaml": {
+            "sha256": "73bf10318e91ee6493bfda42659d3b5fc08022761957829008c53a055881ebdb"
+          },
+          ".readthedocs.yaml": {
+            "sha256": "9a6fe18b0b5e1162bda0b7628214c94aa82ab725e4eac91af4b7c536622d296d"
+          },
+          ".witness.yaml": {
+            "sha256": "3abc2167053bc5c5963551c6ff529a1dae7da2961ae36230b2e790afada1c16e"
+          },
+          "AUTHORS.rst": {
+            "sha256": "b9a504ea36f91199a575992750052ce646c36ca11167394ced7774544516fedf"
+          },
+          "HISTORY.md": {
+            "sha256": "7ee222a17a09d6c33c50bc5247d7cf1455b207218f0127cae952a3c09006648b"
+          },
+          "LICENSE": {
+            "sha256": "09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b"
+          },
+          "MANIFEST.in": {
+            "sha256": "e44e033d6fb54718d34926991771eef6e0eadcddd36ce9e2ad06a1533cbbc517"
+          },
+          "Makefile": {
+            "sha256": "c31f5628de71af324c7db9b61579e8a287caae87f76586d70994a7dc86964ec7"
+          },
+          "NOTICE": {
+            "sha256": "f5110972dedad2b4e9d314518daf3b7d72d6e02e499acd802181de6f74571dcc"
+          },
+          "README.md": {
+            "sha256": "d89ac3c89f9eb04843a6139c1b49fe4846e5f21c6acbf3721c48d31dcb651ddf"
+          },
+          "docs/.nojekyll": {
+            "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+          },
+          "docs/Makefile": {
+            "sha256": "a1f210795aefeaa886bbfa6122779ba4c8e52b0e8445b62dcecbb82d308d305e"
+          },
+          "docs/_static/custom.css": {
+            "sha256": "ec1d99bc2726a46b938e2342cde4c4aa39b3fcab99ce5957ab6893b22010b618"
+          },
+          "docs/_static/requests-sidebar.png": {
+            "sha256": "da8951134a14d06287616abe84749d04960d5c2a4e8493dab018f87d8eae8d12"
+          },
+          "docs/_templates/hacks.html": {
+            "sha256": "14590290d56e931e1db77681dfe0c08554df988d60e0a4b94d336b7ba0fdfb33"
+          },
+          "docs/_templates/sidebarintro.html": {
+            "sha256": "8f12aea53eca6a91f008b9fee139918cbda40effd502ec1d671f0d9545faf3e1"
+          },
+          "docs/_templates/sidebarlogo.html": {
+            "sha256": "8f72024c8eeb01d573eff11ed2e1dacd5985510331a084f9e6c8e32892248e82"
+          },
+          "docs/_themes/.gitignore": {
+            "sha256": "f27660c4ec6efa86aac4d61036c5f495e9438805a6f63be44f17db003979a06f"
+          },
+          "docs/_themes/LICENSE": {
+            "sha256": "6afc9d58f919ab52f4806a895a37aefe4d263f8e52278e6a1e87c5d7ec82299c"
+          },
+          "docs/_themes/flask_theme_support.py": {
+            "sha256": "bba3677c6eeb99f678e808e90142a025b798b7658bac1ab4632591df8441d209"
+          },
+          "docs/api.rst": {
+            "sha256": "203258594d351b17b4696b1d06ad33805a0e06ee2dd582939987ac157213fe52"
+          },
+          "docs/community/faq.rst": {
+            "sha256": "b139b9c8c6cb84e2092852fe0e60fd53f419bb6662918dccd766a39f3b7a9693"
+          },
+          "docs/community/out-there.rst": {
+            "sha256": "56158799844060f6ff016c0a08a540999e34da42319ad85a2f411dae35f56466"
+          },
+          "docs/community/recommended.rst": {
+            "sha256": "99c8004abf493d6ad2018352dbdf923a790dfbe1a45dd90b214f1e29b08034d1"
+          },
+          "docs/community/release-process.rst": {
+            "sha256": "a7a8e987bf671a79e4b44e8722b7446fd429922e7d0bde50dd2fba578b966485"
+          },
+          "docs/community/support.rst": {
+            "sha256": "7f1a8ee725fce4ef5bc51568d51b54ba1611e518975463bb11d2cd2c20309fd0"
+          },
+          "docs/community/updates.rst": {
+            "sha256": "202f5d2f2ac8b76c77f00fb0085886510350623873bb2626ef6cb192c84d385b"
+          },
+          "docs/community/vulnerabilities.rst": {
+            "sha256": "7257b2cd5bc43cab2e9ea2e909037cb507c5d3353184c89f5a5c1c902fbdd076"
+          },
+          "docs/conf.py": {
+            "sha256": "e1e73c212613ea5c4ae94f1504a76a8f32791459b78c73c74ccf816bbe53272f"
+          },
+          "docs/dev/authors.rst": {
+            "sha256": "711bde324e69bf390c914fcb1e5d4aa17174deb2093b8c7865a7103391716d07"
+          },
+          "docs/dev/contributing.rst": {
+            "sha256": "66128c658842a60c35af98a7c474d37e877b2d6222b0c09695cef2a28500f97a"
+          },
+          "docs/index.rst": {
+            "sha256": "8875cac72c68c693ff7c7f06e095702a29f708b81b9ff23b1aab2f01aa27f1d8"
+          },
+          "docs/make.bat": {
+            "sha256": "d65d3af3fd9f81bfa4dd7b773d057125af36f4df5e5bc4234fe3127ccf6c6dcc"
+          },
+          "docs/requirements.txt": {
+            "sha256": "5a7725baff849507d224e35c1b0c7324e4594ce79fc042df276c97eab96a5ffc"
+          },
+          "docs/user/advanced.rst": {
+            "sha256": "2f6ad85a29e93427fe3eba05dfc80442bec71107f3b2d662b77bf8ae0fa1a000"
+          },
+          "docs/user/authentication.rst": {
+            "sha256": "5878d62d3929b057f8a6008f21641ae9fae0515b5ed6174da7ac763e36ccdae6"
+          },
+          "docs/user/install.rst": {
+            "sha256": "8b70734839932fa0a53da6e1d97e9c8077fe15f6e06747f24acf154feea039db"
+          },
+          "docs/user/quickstart.rst": {
+            "sha256": "5914de6a636d91ca2ca3a0df55ef8e57359e3fe364fb7176fdee60d231fe2e9f"
+          },
+          "ext/LICENSE": {
+            "sha256": "3172d399cbd8f10609e73fec73d0e0b33eecd3c572a68b0722229d8c7059f725"
+          },
+          "ext/flower-of-life.jpg": {
+            "sha256": "1b155652b7a20734dc0c056d4d0fb91d1a7951cb99142adaed5316302daeb3df"
+          },
+          "ext/kr-compressed.png": {
+            "sha256": "6607917997aaa337f9ab9f1d3ff54d0a2c3177e5e10444d1e2d34a3912632871"
+          },
+          "ext/kr.png": {
+            "sha256": "245f38d6101ce40366c1a30aec5a86b8b8885524ef86968162bf7cf3907307f3"
+          },
+          "ext/psf-compressed.png": {
+            "sha256": "9d4148ae5024484659fc8ccf9dacb92c6ee1d5b367104e97c0df1ed9524ad9a5"
+          },
+          "ext/psf.png": {
+            "sha256": "7a0bf447edc2b67b9138d1ffa64b2f62af05c4dd2da37429584e6b3f5ac84683"
+          },
+          "ext/requests-logo-compressed.png": {
+            "sha256": "c9ea2210c884700dc0f05266170c056c1dbae2181f68a74c5b8d63ac042c9263"
+          },
+          "ext/requests-logo.ai": {
+            "sha256": "ada5899494a2fbd06b6a1a6062dc1b755eaef9dee8ae833a864712b1671fd604"
+          },
+          "ext/requests-logo.png": {
+            "sha256": "c9ea2210c884700dc0f05266170c056c1dbae2181f68a74c5b8d63ac042c9263"
+          },
+          "ext/requests-logo.svg": {
+            "sha256": "b1e7fd86516c1e925191a41ee1efdb2489654548c7756881c311f50b79233af0"
+          },
+          "ext/ss-compressed.png": {
+            "sha256": "c769ab657e25fbda10791d30c9c114d40ea84da2a23a7b446c7adbf9c2569fcc"
+          },
+          "ext/ss.png": {
+            "sha256": "c769ab657e25fbda10791d30c9c114d40ea84da2a23a7b446c7adbf9c2569fcc"
+          },
+          "pyproject.toml": {
+            "sha256": "e4b7b6ede668c7ccf3caa9e9c14fe1c387fe1f4f433b93e24f3c4220f497c9ff"
+          },
+          "requirements-dev.txt": {
+            "sha256": "74d9e52c4dda032917c64ede457adc2885e4b66ddbfaefac89eada149384f81d"
+          },
+          "setup.py": {
+            "sha256": "1728c11af4134997015ab07547544852e2f7e103c79a5b0486a8486799f50e0a"
+          },
+          "src/requests/__init__.py": {
+            "sha256": "9800bf41cb6bfff678df0ffeafd121a2abd5b49954d7df92f28e59e1e2d6be64"
+          },
+          "src/requests/__version__.py": {
+            "sha256": "a97068e69d7773b404ee10016e8267b3d045cb37788bdea2da9d30ef210ed5e9"
+          },
+          "src/requests/_internal_utils.py": {
+            "sha256": "3c85f736286cbff92db39e92e2304767a8b654e9998e3ca3547feca66b6ef149"
+          },
+          "src/requests/adapters.py": {
+            "sha256": "5aecc78b49b5c39fbf7c4a5ba18ca4195b44ed26b34d91e1039359605e97f06e"
+          },
+          "src/requests/api.py": {
+            "sha256": "fd96fd39aeedcd5222cd32b016b3e30c463d7a3b66fce9d2444467003c46b10b"
+          },
+          "src/requests/auth.py": {
+            "sha256": "2875df9db347d857b8add1892b7ada2f83b79f1917c9494b8b324904482e8527"
+          },
+          "src/requests/certs.py": {
+            "sha256": "fd9c6b83359cef90ff6c4eeeab8dcc2388da382ebca7d00a499b3c0b434a87e4"
+          },
+          "src/requests/compat.py": {
+            "sha256": "27bb088d1e97a031a9e494d5ccec642b97d2a145546bf3e373b8916610161a62"
+          },
+          "src/requests/cookies.py": {
+            "sha256": "6cd8be8aa123e0d3d9d34fa86feac7bf392f39bccdde5129830de0ea9692dd7c"
+          },
+          "src/requests/exceptions.py": {
+            "sha256": "9de3a402478aedebd939faa1b48495b0714894e888267e65071b52d014c56a50"
+          },
+          "src/requests/help.py": {
+            "sha256": "bccadffb7379b8e92c9c5a2a4cb1f36c66f7570dbb5b085d85d04984fe652fed"
+          },
+          "src/requests/hooks.py": {
+            "sha256": "f5fad88402ec2c19071fbe86f8762abc0becb1296ed42d5becbebc700b3e1398"
+          },
+          "src/requests/models.py": {
+            "sha256": "24733d202d7636316123a24a838d51d5d664326798dfc840695876eb2989fadc"
+          },
+          "src/requests/packages.py": {
+            "sha256": "fe0d2067af355320252874631fa91a9db6a8c71d9e01beaacdc5e2383c932287"
+          },
+          "src/requests/sessions.py": {
+            "sha256": "81b9a5b0d4a2f7ab088a0d26aed1f3640653fdf388593a1ef989d6eefe69b4a2"
+          },
+          "src/requests/status_codes.py": {
+            "sha256": "889500780db96da4ddc3ee8f7c3d1e178aa1a48343251248fb268cab1b382c42"
+          },
+          "src/requests/structures.py": {
+            "sha256": "f886e6855cf4e92fb968f499b94b6167afba0fd5ce8d1b935c739a6d8d38d573"
+          },
+          "src/requests/utils.py": {
+            "sha256": "91302671e03442e8247a091049fc0d725dc4970f5306bbbb167f128f75d67309"
+          },
+          "testkey.pem": {
+            "sha256": "b3d68fa4af5140530791850cd38ecc0a6b38e4a3ffd491ee4f873383d6079fcc"
+          },
+          "testpub.pem": {
+            "sha256": "1a6613b6583065284e9c0d8cb79c0fa3110242338598ef3e1b8dc099b1a652d3"
+          },
+          "tests/__init__.py": {
+            "sha256": "ac7f253daae0905f9b3dec647cae736bb3c090185aa373b30b3e851599e5342c"
+          },
+          "tests/certs/README.md": {
+            "sha256": "a902fe53d4cc6224b59532e47d94fc42726b2227462e801538aa50a7888d38f3"
+          },
+          "tests/certs/expired/Makefile": {
+            "sha256": "a33636d6474f1e94a1de61c4e1fbd2efb5c55aa86061ab3ce2d2ad9fb5aeb457"
+          },
+          "tests/certs/expired/README.md": {
+            "sha256": "80690554d2353ab1c348bee8df833bdf7b3cd1cb8d728b4380221f34b5881eeb"
+          },
+          "tests/certs/expired/ca/Makefile": {
+            "sha256": "09ab0ff83129203660d5ad489618764524f6af7fa4d9586ca5bdb0f68d1ca822"
+          },
+          "tests/certs/expired/ca/ca-private.key": {
+            "sha256": "9a36bafea981da2dcd9a218b7ce23c778acdbee0009c0720531dd4e4d0549548"
+          },
+          "tests/certs/expired/ca/ca.cnf": {
+            "sha256": "238414b5b06448a4d2f37fcf2e0e771e49e84a172a1c6dc3efec5866d24da3fe"
+          },
+          "tests/certs/expired/ca/ca.crt": {
+            "sha256": "1407cb9c2502bf453ffa3f54cb846022f161a46b73fe4caf436157d95ad93367"
+          },
+          "tests/certs/expired/ca/ca.srl": {
+            "sha256": "c80a955513b5fed04be2ee78804153be8cf070c4145b83c9dbb6331c2e6c2013"
+          },
+          "tests/certs/expired/server/Makefile": {
+            "sha256": "1c8cf9d72554a803d3b267d9df9c5e54db2e05d2fbd6b16d745f140bfcf74a24"
+          },
+          "tests/certs/expired/server/cert.cnf": {
+            "sha256": "3b70317a294d4ac19e055ccb7316c4b3d9cca685d7bdc40be98cdfa9994ff081"
+          },
+          "tests/certs/expired/server/server.csr": {
+            "sha256": "5d4683e2db14cf6f47d57ea6e45647a29b5693f3f723a891b2ef188c333de694"
+          },
+          "tests/certs/expired/server/server.key": {
+            "sha256": "acce64eae44a4073909c97e5929a1a319c947f4f37e4b933c1dcd805e59c8516"
+          },
+          "tests/certs/expired/server/server.pem": {
+            "sha256": "232cc4e13f97688281a03e6a555e93c3a7bd6cfda4604fdee085f4ac2556f2c2"
+          },
+          "tests/certs/mtls/Makefile": {
+            "sha256": "aa1f5be6bde49113304ba145736bc3a3d23d45dfaa81e0d977fd52378f30b314"
+          },
+          "tests/certs/mtls/README.md": {
+            "sha256": "57dd4ec5bd44f1d2e1bc2de7e6cb292eb62f2236d34fd889a46d81a19dbde9f7"
+          },
+          "tests/certs/mtls/client/Makefile": {
+            "sha256": "ec153d8d19a0987a41977094bc8b01cbca1a8b5adc589f1bd8d9bec562bdb9d8"
+          },
+          "tests/certs/mtls/client/ca/Makefile": {
+            "sha256": "09ab0ff83129203660d5ad489618764524f6af7fa4d9586ca5bdb0f68d1ca822"
+          },
+          "tests/certs/mtls/client/ca/ca-private.key": {
+            "sha256": "9a36bafea981da2dcd9a218b7ce23c778acdbee0009c0720531dd4e4d0549548"
+          },
+          "tests/certs/mtls/client/ca/ca.cnf": {
+            "sha256": "238414b5b06448a4d2f37fcf2e0e771e49e84a172a1c6dc3efec5866d24da3fe"
+          },
+          "tests/certs/mtls/client/ca/ca.crt": {
+            "sha256": "1407cb9c2502bf453ffa3f54cb846022f161a46b73fe4caf436157d95ad93367"
+          },
+          "tests/certs/mtls/client/ca/ca.srl": {
+            "sha256": "c80a955513b5fed04be2ee78804153be8cf070c4145b83c9dbb6331c2e6c2013"
+          },
+          "tests/certs/mtls/client/cert.cnf": {
+            "sha256": "b7cbb0ae5934dd229cba5cbf60869a33d352bf9c2799705f99f74e0685148acf"
+          },
+          "tests/certs/mtls/client/client.csr": {
+            "sha256": "5fc31e8e331f1fdbf7f80c4840b4e70fa81f6dc46ecab811bb03134d21ab4004"
+          },
+          "tests/certs/mtls/client/client.key": {
+            "sha256": "98ed2a33896438a77175ee8ecebe0a8bf57d39c24a18ba4ebf87d9bc8abf6711"
+          },
+          "tests/certs/mtls/client/client.pem": {
+            "sha256": "d8601d058cf8958fff16250037b38a83e5eb93cc0507b4e083860ca9214023ea"
+          },
+          "tests/certs/valid/server/Makefile": {
+            "sha256": "68541e2b167a72cf00a57c0978750b11ff830dc85bdda99eebe50f7791768a03"
+          },
+          "tests/certs/valid/server/cert.cnf": {
+            "sha256": "605014e20661c4d3e5ff5869e5453018e09329a3b7a987d26c8b785db3ee7479"
+          },
+          "tests/certs/valid/server/server.csr": {
+            "sha256": "e880392e855c00d84c06daa45000a624950fc2da0dde1ae92f2a9f91370a578e"
+          },
+          "tests/certs/valid/server/server.key": {
+            "sha256": "5457b89bc1af7de6829d78c9baa639ddea79b4e9dffe7933166c12836f9345c2"
+          },
+          "tests/certs/valid/server/server.pem": {
+            "sha256": "d0b55dbe152874f2d7bce3513d52a8e5f587566186dfd7a88d14ad41367133d1"
+          },
+          "tests/compat.py": {
+            "sha256": "d58ff5e3167de0140a667cc51427f809c552e485875c95b9dad43ce13ba15083"
+          },
+          "tests/conftest.py": {
+            "sha256": "c31d83bf96fbf585c0d497fbf21a39b2e69411948ddb947e5ad51e5857976c5c"
+          },
+          "tests/test_adapters.py": {
+            "sha256": "28f88de1601bcde6a9f178b98452d6b90c55f5d1a6c9a2c15622cd760fbd4c91"
+          },
+          "tests/test_help.py": {
+            "sha256": "1c2ac8ca9f4986429717791df766122b23e1fe90aa621318380ccf1f8e83d0f6"
+          },
+          "tests/test_hooks.py": {
+            "sha256": "a9e5163f538543a660be3b06650cd0b803ff0c503f5948f66b6fc50ede38109c"
+          },
+          "tests/test_lowlevel.py": {
+            "sha256": "db5fac7340c49c49551e3e41679a8ee6e385c56054f84073932354a8da87df65"
+          },
+          "tests/test_packages.py": {
+            "sha256": "90875423db059d65b39416d7b6d01b18938851b8071279877400beb506e08676"
+          },
+          "tests/test_requests.py": {
+            "sha256": "4cf9f82316f6b4183c720b089b6c100c0eea2da30557e4a6eef42c69b801228e"
+          },
+          "tests/test_structures.py": {
+            "sha256": "f7b80e00888105ae80312203279e0cf9256726740bcaa15c6cee7c2c07d33d60"
+          },
+          "tests/test_testserver.py": {
+            "sha256": "90ac39d6cb9c0fbaa94c5aa59646bf6097829ae73e50ac284a41135188f95d33"
+          },
+          "tests/test_utils.py": {
+            "sha256": "749c36bc574e3e796ddb78bbdc91b0d92fccf703a39c6d21f5afbfa7b28f50f8"
+          },
+          "tests/testserver/__init__.py": {
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "tests/testserver/server.py": {
+            "sha256": "15a9092cc5edb005af6732097555515c4b82093d9394f6463c966259f83068c3"
+          },
+          "tests/utils.py": {
+            "sha256": "cfaec86690eba62573c8c730a121332837809333fb2b1006a20e2e8f4d34d4de"
+          },
+          "tox.ini": {
+            "sha256": "65aeb46c94fc5723a9764bb029fdb448539658fe47d3a39550a829b2383804fd"
+          },
+          "witness_nettrace_proxy/ca_cert.pem": {
+            "sha256": "95e50c09e7d0c878951d88ca8cc6e9d5759463bed36b2ec1542b7d49cc501994"
+          },
+          "witness_nettrace_proxy/ca_key.pem": {
+            "sha256": "a131434ffa2d25ce71ec358d826b64e86b356e60acf8601f12bca2fc9f6f6ae2"
+          }
+        },
+        "starttime": "2026-03-25T01:37:39.182163469Z",
+        "endtime": "2026-03-25T01:37:39.284622427Z"
+      },
+      {
+        "type": "https://witness.dev/attestations/network-trace/v0.1",
+        "attestation": {
+          "network_trace": {
+            "start_time": "2026-03-25T01:37:39.602535261Z",
+            "end_time": "2026-03-25T01:37:51.820130169Z",
+            "connections": [
+              {
+                "id": "12321-1774402664377559263",
+                "protocol": "https",
+                "start_time": "2026-03-25T01:37:44.37758293Z",
+                "end_time": "2026-03-25T01:37:44.614077472Z",
+                "process": {
+                  "pid": 5247,
+                  "comm": "python3",
+                  "cgroup_id": 617
+                },
+                "source": {
+                  "ip": "",
+                  "port": 0
+                },
+                "destination": {
+                  "ip": "151.101.0.223",
+                  "port": 443,
+                  "hostname": "pypi.org"
+                },
+                "tls": {
+                  "client_hello": {
+                    "supported_versions": [
+                      "TLS 1.3",
+                      "TLS 1.2"
+                    ],
+                    "cipher_suites": [
+                      "0x1302",
+                      "0x1303",
+                      "0x1301",
+                      "0xc02c",
+                      "0xc030",
+                      "0xc02b",
+                      "0xc02f",
+                      "0xcca9",
+                      "0xcca8",
+                      "0x009f",
+                      "0x009e",
+                      "0xccaa",
+                      "0xc0af",
+                      "0xc0ad",
+                      "0xc0ae",
+                      "0xc0ac",
+                      "0xc024",
+                      "0xc028",
+                      "0xc023",
+                      "0xc027",
+                      "0xc00a",
+                      "0xc014",
+                      "0xc009",
+                      "0xc013",
+                      "0xc0a3",
+                      "0xc09f",
+                      "0xc0a2",
+                      "0xc09e",
+                      "0x006b",
+                      "0x0067",
+                      "0x0039",
+                      "0x0033",
+                      "0x009d",
+                      "0x009c",
+                      "0xc0a1",
+                      "0xc09d",
+                      "0xc0a0",
+                      "0xc09c",
+                      "0x003d",
+                      "0x003c",
+                      "0x0035",
+                      "0x002f",
+                      "0x00ff"
+                    ],
+                    "cipher_suite_names": [
+                      "TLS_AES_256_GCM_SHA384",
+                      "TLS_CHACHA20_POLY1305_SHA256",
+                      "TLS_AES_128_GCM_SHA256",
+                      "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+                      "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+                      "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+                      "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+                      "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+                      "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+                      "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
+                      "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+                      "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+                      "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+                      "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+                      "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+                      "TLS_RSA_WITH_AES_256_GCM_SHA384",
+                      "TLS_RSA_WITH_AES_128_GCM_SHA256",
+                      "TLS_RSA_WITH_AES_128_CBC_SHA256",
+                      "TLS_RSA_WITH_AES_256_CBC_SHA",
+                      "TLS_RSA_WITH_AES_128_CBC_SHA"
+                    ]
+                  }
+                },
+                "http_exchanges": [
+                  {
+                    "timestamp": "2026-03-25T01:37:44.610592513Z",
+                    "request": {
+                      "method": "GET",
+                      "url": "https://pypi.org:443/simple/setuptools/",
+                      "host": "pypi.org",
+                      "headers": {
+                        "Accept": [
+                          "application/vnd.pypi.simple.v1+json, application/vnd.pypi.simple.v1+html; q=0.1, text/html; q=0.01"
+                        ],
+                        "Cache-Control": [
+                          "max-age=0"
+                        ],
+                        "User-Agent": [
+                          "pip/24.0 {\"ci\":null,\"cpu\":\"x86_64\",\"distro\":{\"id\":\"noble\",\"libc\":{\"lib\":\"glibc\",\"version\":\"2.39\"},\"name\":\"Ubuntu\",\"version\":\"24.04\"},\"implementation\":{\"name\":\"CPython\",\"version\":\"3.12.3\"},\"installer\":{\"name\":\"pip\",\"version\":\"24.0\"},\"openssl_version\":\"OpenSSL 3.0.13 30 Jan 2024\",\"python\":\"3.12.3\",\"rustc_version\":\"1.94.0\",\"system\":{\"name\":\"Linux\",\"release\":\"6.10.14-linuxkit\"}}"
+                        ]
+                      },
+                      "body": {
+                        "size": 0
+                      }
+                    },
+                    "response": {
+                      "status_code": 200,
+                      "status": "200 OK",
+                      "headers": {
+                        "Accept-Ranges": [
+                          "bytes"
+                        ],
+                        "Access-Control-Allow-Headers": [
+                          "Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since"
+                        ],
+                        "Access-Control-Allow-Methods": [
+                          "GET"
+                        ],
+                        "Access-Control-Allow-Origin": [
+                          "*"
+                        ],
+                        "Access-Control-Expose-Headers": [
+                          "X-PyPI-Last-Serial"
+                        ],
+                        "Access-Control-Max-Age": [
+                          "86400"
+                        ],
+                        "Cache-Control": [
+                          "max-age=600, public"
+                        ],
+                        "Connection": [
+                          "keep-alive"
+                        ],
+                        "Content-Security-Policy": [
+                          "default-src 'none'; sandbox allow-top-navigation"
+                        ],
+                        "Content-Type": [
+                          "application/vnd.pypi.simple.v1+json"
+                        ],
+                        "Date": [
+                          "Wed, 25 Mar 2026 01:37:44 GMT"
+                        ],
+                        "Etag": [
+                          "\"5Kq+j2lCvm7l8aZLZD3xbg\""
+                        ],
+                        "Permissions-Policy": [
+                          "publickey-credentials-create=(self),publickey-credentials-get=(self),accelerometer=(),ambient-light-sensor=(),autoplay=(),battery=(),camera=(),display-capture=(),document-domain=(),encrypted-media=(),execution-while-not-rendered=(),execution-while-out-of-viewport=(),fullscreen=(),gamepad=(),geolocation=(),gyroscope=(),hid=(),identity-credentials-get=(),idle-detection=(),local-fonts=(),magnetometer=(),microphone=(),midi=(),otp-credentials=(),payment=(),picture-in-picture=(),screen-wake-lock=(),serial=(),speaker-selection=(),storage-access=(),usb=(),web-share=(),xr-spatial-tracking=()"
+                        ],
+                        "Referrer-Policy": [
+                          "origin-when-cross-origin"
+                        ],
+                        "Server": [
+                          "gunicorn"
+                        ],
+                        "Strict-Transport-Security": [
+                          "max-age=31536000; includeSubDomains; preload"
+                        ],
+                        "Vary": [
+                          "Accept, Accept-Encoding"
+                        ],
+                        "X-Cache": [
+                          "MISS, HIT, HIT"
+                        ],
+                        "X-Cache-Hits": [
+                          "0, 65676, 10"
+                        ],
+                        "X-Content-Type-Options": [
+                          "nosniff"
+                        ],
+                        "X-Frame-Options": [
+                          "deny"
+                        ],
+                        "X-Permitted-Cross-Domain-Policies": [
+                          "none"
+                        ],
+                        "X-Pypi-Last-Serial": [
+                          "34959504"
+                        ],
+                        "X-Served-By": [
+                          "cache-iad-kiad7000044-IAD, cache-iad-kiad7000043-IAD, cache-ewr-kewr1740083-EWR"
+                        ],
+                        "X-Timer": [
+                          "S1774402665.553764,VS0,VE0"
+                        ],
+                        "X-Xss-Protection": [
+                          "1; mode=block"
+                        ]
+                      },
+                      "body": {
+                        "size": 772557,
+                        "hash": "9dc1a8d824c0d244f92c019bc1febf61a3b881438c5b13bba873f2179c8686b9"
+                      }
+                    }
+                  }
+                ],
+                "bytes_sent": 0,
+                "bytes_received": 772557,
+                "intercepted": true
+              },
+              {
+                "id": "12323-1774402664949139388",
+                "protocol": "https",
+                "start_time": "2026-03-25T01:37:44.949140305Z",
+                "end_time": "2026-03-25T01:37:45.029788347Z",
+                "process": {
+                  "pid": 5247,
+                  "comm": "python3",
+                  "cgroup_id": 617
+                },
+                "source": {
+                  "ip": "",
+                  "port": 0
+                },
+                "destination": {
+                  "ip": "151.101.192.223",
+                  "port": 443,
+                  "hostname": "files.pythonhosted.org"
+                },
+                "tls": {
+                  "client_hello": {
+                    "supported_versions": [
+                      "TLS 1.3",
+                      "TLS 1.2"
+                    ],
+                    "cipher_suites": [
+                      "0x1302",
+                      "0x1303",
+                      "0x1301",
+                      "0xc02c",
+                      "0xc030",
+                      "0xc02b",
+                      "0xc02f",
+                      "0xcca9",
+                      "0xcca8",
+                      "0x009f",
+                      "0x009e",
+                      "0xccaa",
+                      "0xc0af",
+                      "0xc0ad",
+                      "0xc0ae",
+                      "0xc0ac",
+                      "0xc024",
+                      "0xc028",
+                      "0xc023",
+                      "0xc027",
+                      "0xc00a",
+                      "0xc014",
+                      "0xc009",
+                      "0xc013",
+                      "0xc0a3",
+                      "0xc09f",
+                      "0xc0a2",
+                      "0xc09e",
+                      "0x006b",
+                      "0x0067",
+                      "0x0039",
+                      "0x0033",
+                      "0x009d",
+                      "0x009c",
+                      "0xc0a1",
+                      "0xc09d",
+                      "0xc0a0",
+                      "0xc09c",
+                      "0x003d",
+                      "0x003c",
+                      "0x0035",
+                      "0x002f",
+                      "0x00ff"
+                    ],
+                    "cipher_suite_names": [
+                      "TLS_AES_256_GCM_SHA384",
+                      "TLS_CHACHA20_POLY1305_SHA256",
+                      "TLS_AES_128_GCM_SHA256",
+                      "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+                      "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+                      "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+                      "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+                      "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+                      "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+                      "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
+                      "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+                      "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+                      "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+                      "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+                      "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+                      "TLS_RSA_WITH_AES_256_GCM_SHA384",
+                      "TLS_RSA_WITH_AES_128_GCM_SHA256",
+                      "TLS_RSA_WITH_AES_128_CBC_SHA256",
+                      "TLS_RSA_WITH_AES_256_CBC_SHA",
+                      "TLS_RSA_WITH_AES_128_CBC_SHA"
+                    ]
+                  }
+                },
+                "http_exchanges": [
+                  {
+                    "timestamp": "2026-03-25T01:37:45.029743013Z",
+                    "request": {
+                      "method": "GET",
+                      "url": "https://files.pythonhosted.org:443/packages/9d/76/f789f7a86709c6b087c5a2f52f911838cad707cc613162401badc665acfe/setuptools-82.0.1-py3-none-any.whl.metadata",
+                      "host": "files.pythonhosted.org",
+                      "headers": {
+                        "Accept": [
+                          "*/*"
+                        ],
+                        "User-Agent": [
+                          "pip/24.0 {\"ci\":null,\"cpu\":\"x86_64\",\"distro\":{\"id\":\"noble\",\"libc\":{\"lib\":\"glibc\",\"version\":\"2.39\"},\"name\":\"Ubuntu\",\"version\":\"24.04\"},\"implementation\":{\"name\":\"CPython\",\"version\":\"3.12.3\"},\"installer\":{\"name\":\"pip\",\"version\":\"24.0\"},\"openssl_version\":\"OpenSSL 3.0.13 30 Jan 2024\",\"python\":\"3.12.3\",\"rustc_version\":\"1.94.0\",\"system\":{\"name\":\"Linux\",\"release\":\"6.10.14-linuxkit\"}}"
+                        ]
+                      },
+                      "body": {
+                        "size": 0
+                      }
+                    },
+                    "response": {
+                      "status_code": 200,
+                      "status": "200 OK",
+                      "headers": {
+                        "Accept-Ranges": [
+                          "bytes"
+                        ],
+                        "Access-Control-Allow-Headers": [
+                          "Range"
+                        ],
+                        "Access-Control-Allow-Methods": [
+                          "GET, OPTIONS"
+                        ],
+                        "Access-Control-Allow-Origin": [
+                          "*"
+                        ],
+                        "Age": [
+                          "668963"
+                        ],
+                        "Cache-Control": [
+                          "max-age=365000000, immutable, public"
+                        ],
+                        "Connection": [
+                          "keep-alive"
+                        ],
+                        "Content-Type": [
+                          "binary/octet-stream"
+                        ],
+                        "Date": [
+                          "Wed, 25 Mar 2026 01:37:45 GMT"
+                        ],
+                        "Etag": [
+                          "\"81be38f0519296659f14daa3ae2a5158\""
+                        ],
+                        "Fastly-Restarts": [
+                          "1"
+                        ],
+                        "Last-Modified": [
+                          "Mon, 09 Mar 2026 12:47:17 GMT"
+                        ],
+                        "Server": [
+                          "AmazonS3"
+                        ],
+                        "Strict-Transport-Security": [
+                          "max-age=31536000; includeSubDomains; preload"
+                        ],
+                        "Vary": [
+                          "Accept-Encoding"
+                        ],
+                        "X-Amz-Id-2": [
+                          "pGmdEIq10TNsk9NDPOci5ZGoFZ3OkIaI0tpRG6UTeR+OnKc8jkqkLpauhiCMt0AuQ5s0QQi/64I="
+                        ],
+                        "X-Amz-Request-Id": [
+                          "ZS7K6AJ27M7193CW"
+                        ],
+                        "X-Amz-Server-Side-Encryption": [
+                          "AES256"
+                        ],
+                        "X-Amz-Version-Id": [
+                          "bFsukIv.9j0Tr400MbdqI7WVb1XMiIII"
+                        ],
+                        "X-Cache": [
+                          "HIT, HIT"
+                        ],
+                        "X-Cache-Hits": [
+                          "12, 3"
+                        ],
+                        "X-Content-Type-Options": [
+                          "nosniff"
+                        ],
+                        "X-Frame-Options": [
+                          "deny"
+                        ],
+                        "X-Pypi-File-Package-Type": [
+                          "bdist_wheel"
+                        ],
+                        "X-Pypi-File-Project": [
+                          "setuptools"
+                        ],
+                        "X-Pypi-File-Python-Version": [
+                          "py3"
+                        ],
+                        "X-Pypi-File-Version": [
+                          "82.0.1"
+                        ],
+                        "X-Robots-Header": [
+                          "noindex"
+                        ],
+                        "X-Served-By": [
+                          "cache-iad-kcgs7200102-IAD, cache-ewr-kewr1740033-EWR"
+                        ],
+                        "X-Timer": [
+                          "S1774402665.030161,VS0,VE0"
+                        ],
+                        "X-Xss-Protection": [
+                          "1; mode=block"
+                        ]
+                      },
+                      "body": {
+                        "size": 6527,
+                        "hash": "75683f40e1121ebccbbca4d679ae2dbf8a0be0ba91531df285b28abe927a43f8"
+                      }
+                    }
+                  }
+                ],
+                "bytes_sent": 0,
+                "bytes_received": 6527,
+                "intercepted": true
+              },
+              {
+                "id": "8235-1774402665169853555",
+                "protocol": "https",
+                "start_time": "2026-03-25T01:37:45.169854805Z",
+                "end_time": "2026-03-25T01:37:45.460252305Z",
+                "process": {
+                  "pid": 5247,
+                  "comm": "python3",
+                  "cgroup_id": 617
+                },
+                "source": {
+                  "ip": "",
+                  "port": 0
+                },
+                "destination": {
+                  "ip": "151.101.192.223",
+                  "port": 443,
+                  "hostname": "files.pythonhosted.org"
+                },
+                "tls": {
+                  "client_hello": {
+                    "supported_versions": [
+                      "TLS 1.3",
+                      "TLS 1.2"
+                    ],
+                    "cipher_suites": [
+                      "0x1302",
+                      "0x1303",
+                      "0x1301",
+                      "0xc02c",
+                      "0xc030",
+                      "0xc02b",
+                      "0xc02f",
+                      "0xcca9",
+                      "0xcca8",
+                      "0x009f",
+                      "0x009e",
+                      "0xccaa",
+                      "0xc0af",
+                      "0xc0ad",
+                      "0xc0ae",
+                      "0xc0ac",
+                      "0xc024",
+                      "0xc028",
+                      "0xc023",
+                      "0xc027",
+                      "0xc00a",
+                      "0xc014",
+                      "0xc009",
+                      "0xc013",
+                      "0xc0a3",
+                      "0xc09f",
+                      "0xc0a2",
+                      "0xc09e",
+                      "0x006b",
+                      "0x0067",
+                      "0x0039",
+                      "0x0033",
+                      "0x009d",
+                      "0x009c",
+                      "0xc0a1",
+                      "0xc09d",
+                      "0xc0a0",
+                      "0xc09c",
+                      "0x003d",
+                      "0x003c",
+                      "0x0035",
+                      "0x002f",
+                      "0x00ff"
+                    ],
+                    "cipher_suite_names": [
+                      "TLS_AES_256_GCM_SHA384",
+                      "TLS_CHACHA20_POLY1305_SHA256",
+                      "TLS_AES_128_GCM_SHA256",
+                      "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+                      "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+                      "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+                      "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+                      "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+                      "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+                      "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
+                      "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+                      "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+                      "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+                      "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+                      "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+                      "TLS_RSA_WITH_AES_256_GCM_SHA384",
+                      "TLS_RSA_WITH_AES_128_GCM_SHA256",
+                      "TLS_RSA_WITH_AES_128_CBC_SHA256",
+                      "TLS_RSA_WITH_AES_256_CBC_SHA",
+                      "TLS_RSA_WITH_AES_128_CBC_SHA"
+                    ]
+                  }
+                },
+                "http_exchanges": [
+                  {
+                    "timestamp": "2026-03-25T01:37:45.451638472Z",
+                    "request": {
+                      "method": "GET",
+                      "url": "https://files.pythonhosted.org:443/packages/9d/76/f789f7a86709c6b087c5a2f52f911838cad707cc613162401badc665acfe/setuptools-82.0.1-py3-none-any.whl",
+                      "host": "files.pythonhosted.org",
+                      "headers": {
+                        "Accept": [
+                          "*/*"
+                        ],
+                        "User-Agent": [
+                          "pip/24.0 {\"ci\":null,\"cpu\":\"x86_64\",\"distro\":{\"id\":\"noble\",\"libc\":{\"lib\":\"glibc\",\"version\":\"2.39\"},\"name\":\"Ubuntu\",\"version\":\"24.04\"},\"implementation\":{\"name\":\"CPython\",\"version\":\"3.12.3\"},\"installer\":{\"name\":\"pip\",\"version\":\"24.0\"},\"openssl_version\":\"OpenSSL 3.0.13 30 Jan 2024\",\"python\":\"3.12.3\",\"rustc_version\":\"1.94.0\",\"system\":{\"name\":\"Linux\",\"release\":\"6.10.14-linuxkit\"}}"
+                        ]
+                      },
+                      "body": {
+                        "size": 0
+                      }
+                    },
+                    "response": {
+                      "status_code": 200,
+                      "status": "200 OK",
+                      "headers": {
+                        "Accept-Ranges": [
+                          "bytes"
+                        ],
+                        "Access-Control-Allow-Headers": [
+                          "Range"
+                        ],
+                        "Access-Control-Allow-Methods": [
+                          "GET, OPTIONS"
+                        ],
+                        "Access-Control-Allow-Origin": [
+                          "*"
+                        ],
+                        "Age": [
+                          "1342227"
+                        ],
+                        "Cache-Control": [
+                          "max-age=365000000, immutable, public"
+                        ],
+                        "Connection": [
+                          "keep-alive"
+                        ],
+                        "Content-Length": [
+                          "1006223"
+                        ],
+                        "Content-Type": [
+                          "binary/octet-stream"
+                        ],
+                        "Date": [
+                          "Wed, 25 Mar 2026 01:37:45 GMT"
+                        ],
+                        "Etag": [
+                          "\"47d7be500e348515c380524898c354d6\""
+                        ],
+                        "Fastly-Restarts": [
+                          "1"
+                        ],
+                        "Last-Modified": [
+                          "Mon, 09 Mar 2026 12:47:16 GMT"
+                        ],
+                        "Server": [
+                          "AmazonS3"
+                        ],
+                        "Strict-Transport-Security": [
+                          "max-age=31536000; includeSubDomains; preload"
+                        ],
+                        "X-Amz-Id-2": [
+                          "iEZhv5TR1lj8xuP2EZEf/gNRcbeSe8pZPrTZYISuJPKr7bmcRLpoxI8g53fDis1DHKqX/jObW7I="
+                        ],
+                        "X-Amz-Request-Id": [
+                          "1605QBWNJJGW4JEY"
+                        ],
+                        "X-Amz-Server-Side-Encryption": [
+                          "AES256"
+                        ],
+                        "X-Amz-Version-Id": [
+                          "MSAc9hcewsikWAet_DGH04G98RCgy_Cl"
+                        ],
+                        "X-Cache": [
+                          "HIT, HIT"
+                        ],
+                        "X-Cache-Hits": [
+                          "9, 3715"
+                        ],
+                        "X-Content-Type-Options": [
+                          "nosniff"
+                        ],
+                        "X-Frame-Options": [
+                          "deny"
+                        ],
+                        "X-Pypi-File-Package-Type": [
+                          "bdist_wheel"
+                        ],
+                        "X-Pypi-File-Project": [
+                          "setuptools"
+                        ],
+                        "X-Pypi-File-Python-Version": [
+                          "py3"
+                        ],
+                        "X-Pypi-File-Version": [
+                          "82.0.1"
+                        ],
+                        "X-Robots-Header": [
+                          "noindex"
+                        ],
+                        "X-Served-By": [
+                          "cache-iad-kcgs7200147-IAD, cache-ewr-kewr1740033-EWR"
+                        ],
+                        "X-Timer": [
+                          "S1774402665.191524,VS0,VE0"
+                        ],
+                        "X-Xss-Protection": [
+                          "1; mode=block"
+                        ]
+                      },
+                      "body": {
+                        "size": 1006223,
+                        "hash": "a59e362652f08dcd477c78bb6e7bd9d80a7995bc73ce773050228a348ce2e5bb"
+                      }
+                    }
+                  }
+                ],
+                "bytes_sent": 0,
+                "bytes_received": 1006223,
+                "intercepted": true
+              }
+            ],
+            "summary": {
+              "total_connections": 3,
+              "intercepted_count": 3,
+              "metadata_only_count": 0,
+              "protocol_counts": {
+                "https": 3
+              },
+              "unique_hosts": [
+                "pypi.org",
+                "files.pythonhosted.org"
+              ],
+              "unique_ips": [
+                "151.101.0.223",
+                "151.101.192.223"
+              ],
+              "total_bytes_sent": 0,
+              "total_bytes_received": 1785307
+            },
+            "config": {
+              "observe_pids": [
+                5220
+              ],
+              "observe_child_tree": true,
+              "proxy_port": 8888,
+              "proxy_bind_ipv4": "127.0.0.1",
+              "enabled_http_inspection": true,
+              "generate_ca": true,
+              "ca_cert_path": "./witness_nettrace_proxy/ca_cert.pem",
+              "ca_key_path": "./witness_nettrace_proxy/ca_key.pem",
+              "skip_verify": false,
+              "payload": {
+                "record_payload": false,
+                "record_payload_hash": true,
+                "max_payload_size": 1048576
+              }
+            },
+            "ca_cert_pem": "-----BEGIN CERTIFICATE-----\nMIIBxDCCAWqgAwIBAgIQVJXVE+2zrbnSS1l0hdWhyjAKBggqhkjOPQQDAjBCMSUw\nIwYDVQQKExxXaXRuZXNzIFRyYW5zcGFyZW50IFByb3h5IENBMRkwFwYDVQQDExBX\naXRuZXNzIFByb3h5IENBMB4XDTI2MDMyNTAwMzYwNFoXDTI3MDMyNTAxMzYwNFow\nQjElMCMGA1UEChMcV2l0bmVzcyBUcmFuc3BhcmVudCBQcm94eSBDQTEZMBcGA1UE\nAxMQV2l0bmVzcyBQcm94eSBDQTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABI47\nDLccJDSwwalbUkiL9mfo7Z505O4f/Ue/+/XXh9o3KmXJsp08rFTdfzzyscY2NX0I\n5xSDEZlo/aWNlWJrwQWjQjBAMA4GA1UdDwEB/wQEAwIChDAPBgNVHRMBAf8EBTAD\nAQH/MB0GA1UdDgQWBBSLQeo3pid+7NT3o7Z3okpsBn10oTAKBggqhkjOPQQDAgNI\nADBFAiBPsAhA5mLPLeQoJ14KdLbhcP5U0pEfpcdBXdRtwnTzHwIhAPWUccx+8ACA\nF9uWn9kaxTEkKbJVsxq97g6IFHR1S54y\n-----END CERTIFICATE-----\n"
+          }
+        },
+        "starttime": "2026-03-25T01:37:39.285646469Z",
+        "endtime": "2026-03-25T01:37:51.825867336Z"
+      },
+      {
+        "type": "https://witness.dev/attestations/command-run/v0.1",
+        "attestation": {
+          "cmd": [
+            "pip",
+            "install",
+            "."
+          ],
+          "stdout": "Processing /workspace/SBOMit-examples/requests\n  Installing build dependencies: started\n  Installing build dependencies: finished with status 'done'\n  Getting requirements to build wheel: started\n  Getting requirements to build wheel: finished with status 'done'\n  Preparing metadata (pyproject.toml): started\n  Preparing metadata (pyproject.toml): finished with status 'done'\nRequirement already satisfied: charset_normalizer<4,>=2 in /workspace/orjson/venv/lib/python3.12/site-packages (from requests==2.33.0.dev1) (3.4.6)\nRequirement already satisfied: idna<4,>=2.5 in /workspace/orjson/venv/lib/python3.12/site-packages (from requests==2.33.0.dev1) (3.11)\nRequirement already satisfied: urllib3<3,>=1.26 in /workspace/orjson/venv/lib/python3.12/site-packages (from requests==2.33.0.dev1) (2.6.3)\nRequirement already satisfied: certifi>=2023.5.7 in /workspace/orjson/venv/lib/python3.12/site-packages (from requests==2.33.0.dev1) (2026.2.25)\nBuilding wheels for collected packages: requests\n  Building wheel for requests (pyproject.toml): started\n  Building wheel for requests (pyproject.toml): finished with status 'done'\n  Created wheel for requests: filename=requests-2.33.0.dev1-py3-none-any.whl size=65113 sha256=6b93b7fa3303292755f9603315558198bcf3d64ee59868682c6ea3e120e0ac80\n  Stored in directory: /tmp/pip-ephem-wheel-cache-b5iaqemk/wheels/f9/a9/7b/ae77a7f87bda074eac5bf6f3ab2c1cce81b5b5f01ca7f35c8c\nSuccessfully built requests\nInstalling collected packages: requests\n  Attempting uninstall: requests\n    Found existing installation: requests 2.32.5\n    Uninstalling requests-2.32.5:\n      Successfully uninstalled requests-2.32.5\nSuccessfully installed requests-2.33.0.dev1\n",
+          "exitcode": 0,
+          "processes": [
+            {
+              "program": "/workspace/orjson/venv/bin/pip",
+              "processid": 5220,
+              "parentpid": 0
+            }
+          ]
+        },
+        "starttime": "2026-03-25T01:37:39.285712969Z",
+        "endtime": "2026-03-25T01:37:51.826042877Z"
+      },
+      {
+        "type": "https://witness.dev/attestations/product/v0.1",
+        "attestation": {},
+        "starttime": "2026-03-25T01:37:51.829965419Z",
+        "endtime": "2026-03-25T01:37:51.926975127Z"
+      }
+    ]
+  }
+}

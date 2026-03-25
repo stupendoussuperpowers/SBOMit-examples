@@ -1,0 +1,532 @@
+{
+  "_type": "https://in-toto.io/Statement/v0.1",
+  "subject": [],
+  "predicateType": "https://witness.testifysec.com/attestation-collection/v0.1",
+  "predicate": {
+    "name": "build",
+    "attestations": [
+      {
+        "type": "https://witness.dev/attestations/material/v0.1",
+        "attestation": {
+          ".codecov.yml": {
+            "sha256": "1ab0af118abc204032fc015b3e4e6dc0469ccb44a7309a5855652610a357f65e"
+          },
+          ".git/HEAD": {
+            "sha256": "f6f2b945f6c411b02ba3da9c7ace88dcf71b6af65ba2e0d89aa82900042b5a10"
+          },
+          ".git/config": {
+            "sha256": "9a730ff9c5ffc34e788bf6cc71dd0d1a850acbfea4182d210ba73be4745deb47"
+          },
+          ".git/description": {
+            "sha256": "85ab6c163d43a17ea9cf7788308bca1466f1b0a8d1cc92e26e9bf63da4062aee"
+          },
+          ".git/hooks/applypatch-msg.sample": {
+            "sha256": "0223497a0b8b033aa58a3a521b8629869386cf7ab0e2f101963d328aa62193f7"
+          },
+          ".git/hooks/commit-msg.sample": {
+            "sha256": "1f74d5e9292979b573ebd59741d46cb93ff391acdd083d340b94370753d92437"
+          },
+          ".git/hooks/fsmonitor-watchman.sample": {
+            "sha256": "e0549964e93897b519bd8e333c037e51fff0f88ba13e086a331592bf801fa1d0"
+          },
+          ".git/hooks/post-update.sample": {
+            "sha256": "81765af2daef323061dcbc5e61fc16481cb74b3bac9ad8a174b186523586f6c5"
+          },
+          ".git/hooks/pre-applypatch.sample": {
+            "sha256": "e15c5b469ea3e0a695bea6f2c82bcf8e62821074939ddd85b77e0007ff165475"
+          },
+          ".git/hooks/pre-commit.sample": {
+            "sha256": "f9af7d95eb1231ecf2eba9770fedfa8d4797a12b02d7240e98d568201251244a"
+          },
+          ".git/hooks/pre-merge-commit.sample": {
+            "sha256": "d3825a70337940ebbd0a5c072984e13245920cdf8898bd225c8d27a6dfc9cb53"
+          },
+          ".git/hooks/pre-push.sample": {
+            "sha256": "ecce9c7e04d3f5dd9d8ada81753dd1d549a9634b26770042b58dda00217d086a"
+          },
+          ".git/hooks/pre-rebase.sample": {
+            "sha256": "4febce867790052338076f4e66cc47efb14879d18097d1d61c8261859eaaa7b3"
+          },
+          ".git/hooks/pre-receive.sample": {
+            "sha256": "a4c3d2b9c7bb3fd8d1441c31bd4ee71a595d66b44fcf49ddb310252320169989"
+          },
+          ".git/hooks/prepare-commit-msg.sample": {
+            "sha256": "e9ddcaa4189fddd25ed97fc8c789eca7b6ca16390b2392ae3276f0c8e1aa4619"
+          },
+          ".git/hooks/push-to-checkout.sample": {
+            "sha256": "a53d0741798b287c6dd7afa64aee473f305e65d3f49463bb9d7408ec3b12bf5f"
+          },
+          ".git/hooks/sendemail-validate.sample": {
+            "sha256": "44ebfc923dc5466bc009602f0ecf067b9c65459abfe8868ddc49b78e6ced7a92"
+          },
+          ".git/hooks/update.sample": {
+            "sha256": "8d5f2fa83e103cf08b57eaa67521df9194f45cbdbcb37da52ad586097a14d106"
+          },
+          ".git/index": {
+            "sha256": "774cf1c48bc65ba7e607ebb375516e8993e55defb82a444ed1dc668c6efb58a6"
+          },
+          ".git/info/exclude": {
+            "sha256": "6671fe83b7a07c8932ee89164d1f2793b2318058eb8b98dc5c06ee0a5a3b0ec1"
+          },
+          ".git/logs/HEAD": {
+            "sha256": "ee70d29c7eb69114461a4388cff1c2266b832c2d14ad96e5e9c786e1f643f2e8"
+          },
+          ".git/logs/refs/heads/master": {
+            "sha256": "ee70d29c7eb69114461a4388cff1c2266b832c2d14ad96e5e9c786e1f643f2e8"
+          },
+          ".git/logs/refs/remotes/origin/HEAD": {
+            "sha256": "ee70d29c7eb69114461a4388cff1c2266b832c2d14ad96e5e9c786e1f643f2e8"
+          },
+          ".git/objects/pack/pack-cd209aec165c3ee7f393ea12bb1a6c76892e57e1.idx": {
+            "sha256": "4ee9c39fc7efc56f4ef3dd91abbdcfb4912f0ceafdda66f6ee0676724ada8717"
+          },
+          ".git/objects/pack/pack-cd209aec165c3ee7f393ea12bb1a6c76892e57e1.pack": {
+            "sha256": "d29ef4cc59452ad42be2c524e4f33e92757b57e1856d6c9cf1744d0b4f0b9ff0"
+          },
+          ".git/objects/pack/pack-cd209aec165c3ee7f393ea12bb1a6c76892e57e1.rev": {
+            "sha256": "208a3b291796c4787921667823deaee528375b62187f58c11ed204f94e2e1ccd"
+          },
+          ".git/packed-refs": {
+            "sha256": "8b70b609a855f937f41cf4ffed916edeb7864e3ead069d7f23ca28902905fe62"
+          },
+          ".git/refs/heads/master": {
+            "sha256": "7411732d87939d35e3acaad7ab3a5d64e3dd399a372ff5efb16e6b65682b204f"
+          },
+          ".git/refs/remotes/origin/HEAD": {
+            "sha256": "cdc65e67690c4c6475174e5ec662b70655246a2f3924354778835ab3be70aa76"
+          },
+          ".github/FUNDING.yml": {
+            "sha256": "11fdbbf6007626fa3a54bcf8099c3043402617cd159cd943889dd3abcc068794"
+          },
+          ".github/workflows/cifuzz.yaml": {
+            "sha256": "a4886913e03bcf3856167817d81c78155a68782ffe9492ffbeb04296c3ba1f51"
+          },
+          ".github/workflows/docker.yaml": {
+            "sha256": "da7eecd027d3dac0982c4c5aeb67c35c6a639db26f63c5ce6de53fd6a5b1c33d"
+          },
+          ".github/workflows/go.yaml": {
+            "sha256": "6c7a02266aa1bfb8f5323f4a52631f41f4b17224ad1463963fd9fa7217718769"
+          },
+          ".gitignore": {
+            "sha256": "96d1cc075eb9766ad2c180044e1db28fdfca24eff30fdc539ac630116c166b94"
+          },
+          ".witness.yaml": {
+            "sha256": "3abc2167053bc5c5963551c6ff529a1dae7da2961ae36230b2e790afada1c16e"
+          },
+          "LICENSE": {
+            "sha256": "afa48e5e64dc610298d80b010ae7a3450f61a79500a9f1d1697ff6dcbbfa1f72"
+          },
+          "README.md": {
+            "sha256": "fd3bd6a2c6194a1cb8caaa0a5842b179061dc730d406447d2b21fc5f2f3a9952"
+          },
+          "_example/custom_driver_name/Makefile": {
+            "sha256": "40115e91d275f4df32813aa7efe1c269d6fdf8594317ff5c2ca1ee96b3a3b31c"
+          },
+          "_example/custom_driver_name/main.go": {
+            "sha256": "bd4d974c1e315e8cfb1d84061c3b6dc4a9fb79b402125fdabaf1dc3f2ead823c"
+          },
+          "_example/custom_func/main.go": {
+            "sha256": "f5ae9981de4774e3e83b12cfee3322ea6ada8ee1b64f1f6cbb31232775e94231"
+          },
+          "_example/fuzz/fuzz_openexec.go": {
+            "sha256": "9d0261901abbcd05b23ef901a94d74e4b4c47bc23b9e0bb1aaaeb400be97da45"
+          },
+          "_example/hook/hook.go": {
+            "sha256": "a54d88f2642e33f1f5c3fd1a4fbbd9d9f512d91156778c690002d5768ecb5604"
+          },
+          "_example/json/json.go": {
+            "sha256": "961c7c987f98b6783ae7ce9af4c3d0096b96dc98c1afbb367e9ff09d605a24e2"
+          },
+          "_example/limit/limit.go": {
+            "sha256": "ff4e951c1e7bfe5ac998f0e3a9b3599aaf73e0fe8954f28b2bbfa1b078a29eb1"
+          },
+          "_example/mod_regexp/Makefile": {
+            "sha256": "5186fef631d562440f0246a22ce182d596268aded3bb75ffdbaa3c52a3a23f28"
+          },
+          "_example/mod_regexp/extension.go": {
+            "sha256": "f101a236c1518ef811a283aed2e7e95a5c06209cee3b55be73f497eb329ffc61"
+          },
+          "_example/mod_regexp/sqlite3_mod_regexp.c": {
+            "sha256": "ad003c7473927f598dbfb54b76e1c8aa199ad280463e48c2bc75cb212aae1c94"
+          },
+          "_example/mod_vtable/Makefile": {
+            "sha256": "e31d37277caf3aa36b9807a30b9887831ac9c4b83791496cb84825eaf162055d"
+          },
+          "_example/mod_vtable/extension.go": {
+            "sha256": "4d32ed1079273e1236da1de76a3cb49a8f2da2f9bfadeb6817483fcceba2743b"
+          },
+          "_example/mod_vtable/picojson.h": {
+            "sha256": "715613522bd65350700c52f12850de59445bd41fa861bc63434f53902b8f422e"
+          },
+          "_example/mod_vtable/sqlite3_mod_vtable.cc": {
+            "sha256": "0623d318d4244e6e2bee61a74d6f7fea51d8bc194b85c7bc1dfab5b65330cb86"
+          },
+          "_example/simple/Dockerfile": {
+            "sha256": "42b951bc34d8f0fb682afc59fc2d9242eb02cc2060f22fb295860efc4a730d93"
+          },
+          "_example/simple/simple.go": {
+            "sha256": "5d19789339eb616839997757c0131dfc93511ce9274b50245d3ce334d7ce60df"
+          },
+          "_example/trace/main.go": {
+            "sha256": "cf7eaa961f202493bf80d784579b1bc3a45a992b8af2d52547cf2a5579683dec"
+          },
+          "_example/vtable/main.go": {
+            "sha256": "4c17374dd6ce7a56495e3abb9a9e140d7f92e6aca235c1bb49cec47d8b4354cd"
+          },
+          "_example/vtable/vtable.go": {
+            "sha256": "c4d56ce6bd6e8a030e5e87d6be1dca790f16530fab384b7304f80b2e4208f76a"
+          },
+          "_example/vtable_eponymous_only/main.go": {
+            "sha256": "690e499e524ca5c9e91825825eb9405be48ee7bc0ea04d46c974038a8948ad0b"
+          },
+          "_example/vtable_eponymous_only/vtable.go": {
+            "sha256": "5cd140da5676e98bface0dfe75e89227a5fe08980863f64bf12ca163f78c9d09"
+          },
+          "backup.go": {
+            "sha256": "00a1f7febc4345ac6e7ff34ca69cb8c4d9b74a34db6dacb792c57d1b58d1d450"
+          },
+          "backup_test.go": {
+            "sha256": "10f9be7d456ebb7a34b6939055fdd49b1b6313413f7d956c056d969d3566cd11"
+          },
+          "callback.go": {
+            "sha256": "86b594e7046e9dab8bdcff26f1bce6c20cbd5633eb073c71e93698f466dfb99d"
+          },
+          "callback_test.go": {
+            "sha256": "4bb4d68b2d912ed2031fe8040418bd9797ec3a7f435e195699f45e46125e8a82"
+          },
+          "convert.go": {
+            "sha256": "fe49e3c1e4fd114d2ac81ea7e6864951dfe6bdc97cd7ac94cdfb7328e4162007"
+          },
+          "doc.go": {
+            "sha256": "1cc5224643358af918e27fb45065306ed4588698cc6c51b1c6e379c43965dd72"
+          },
+          "error.go": {
+            "sha256": "a9d73dad082368b40a4eb7fd9cc93ab2818e6bc6966ab88edfd8e7b80413448c"
+          },
+          "error_test.go": {
+            "sha256": "3cfa30f864a32f8a0160addd040756dcccc3fb408713b181286a716616dfd028"
+          },
+          "go.mod": {
+            "sha256": "bc9235ee6e4e60243f1e7dcacf0caa4d480afcdf06ed78e481fd127e9e3119df"
+          },
+          "go.sum": {
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "sqlite3-binding.c": {
+            "sha256": "0ea26cb7eb0a0f535f1f3946e3d5363fa2a0f37fac48aae2b7a76a839f7f7f76"
+          },
+          "sqlite3-binding.h": {
+            "sha256": "765f4671e952707bafd07a4565b5fd420278e8cdd189e515d7fe37957550b29b"
+          },
+          "sqlite3.go": {
+            "sha256": "6e442717046fe2f3cb03eca6305ab0ea37bb705eb03e9bedd2cc7086435b4b48"
+          },
+          "sqlite3_context.go": {
+            "sha256": "301afe66657c959b01f809f9406763587678000e8f2000b9c3ee18fa19dca448"
+          },
+          "sqlite3_func_crypt.go": {
+            "sha256": "2347733d028be1c7428d7199a33059f7cf8bbe7527dd67ac15aaa08b5978d943"
+          },
+          "sqlite3_func_crypt_test.go": {
+            "sha256": "deb4b2accc71bbd320e2d4edde2824bdcc1385e554c60d58f96ec3e479cb6a98"
+          },
+          "sqlite3_go113_test.go": {
+            "sha256": "391151fa2529be264a7e081404b854021bb33efd513cb3dd2514ad545de1d236"
+          },
+          "sqlite3_go18.go": {
+            "sha256": "98db8c40e52ecb02ddccdebc5f0349ec378ab476f3df6f4ce955353c1e612e8f"
+          },
+          "sqlite3_go18_test.go": {
+            "sha256": "82dabd6a4e393c6d755c42d290b6a56e93ec0ea0e6e6d164e77b4aac05d17442"
+          },
+          "sqlite3_libsqlite3.go": {
+            "sha256": "7be492dd71f2b55768cac7468da724116fbfbaf353384a793f41339c80cb4edb"
+          },
+          "sqlite3_load_extension.go": {
+            "sha256": "7160b471294b372f1a12a2b41be199a04842ab769d625be5cdef2b05000e5250"
+          },
+          "sqlite3_load_extension_omit.go": {
+            "sha256": "47c47b87da11c7b85c2f510cb7f309557913b0db4b3a1aa31e56f28471dfd744"
+          },
+          "sqlite3_load_extension_test.go": {
+            "sha256": "981a1e66f8ac8b32ae98c9d814a9bed81663053b6e55a4e3fa4804c7a0da205b"
+          },
+          "sqlite3_opt_allow_uri_authority.go": {
+            "sha256": "31b03b8a49b5f349636c5da80abbbf125bdcb3193db60ea72dd4aa81f2846515"
+          },
+          "sqlite3_opt_app_armor.go": {
+            "sha256": "ce5e20e63e4e56c141d6b6aaec283c10b141b70c3dcf01195292ea87e524d8b0"
+          },
+          "sqlite3_opt_column_metadata.go": {
+            "sha256": "ddb36a1b4e92071223ea7b7555d2146a508d6648a5808a13cbdb551b8abfc0c1"
+          },
+          "sqlite3_opt_column_metadata_test.go": {
+            "sha256": "96a00601629b3973d650e64d2f97139888d9e64615dd8ec4f48571e0360f144e"
+          },
+          "sqlite3_opt_foreign_keys.go": {
+            "sha256": "d46a2e5e788e89def5a49f945e31a9caf86bf8457bd093b1105642ed557cf880"
+          },
+          "sqlite3_opt_fts3_test.go": {
+            "sha256": "1f8ac0d7fd945cd5e31ad75be3fb2d582624d116e4e99e894a2cbb835c976687"
+          },
+          "sqlite3_opt_fts5.go": {
+            "sha256": "01aeafabfecd3411dbaad1de88a2d35fd6b2743decf0c4aadef8f3b209f80352"
+          },
+          "sqlite3_opt_icu.go": {
+            "sha256": "f86822ff319a953e80b43295a6a067355066c70f31b868b3d1114c2db2eb68d0"
+          },
+          "sqlite3_opt_introspect.go": {
+            "sha256": "053b117670310dca1616aad8312b5a9d96f4dd5b90213a7bc40ab52d247c24bb"
+          },
+          "sqlite3_opt_math_functions.go": {
+            "sha256": "c36b63adb8a526aed1b76ecb15e898d5c0ebe6f6b6b67446618fd15a0771b35f"
+          },
+          "sqlite3_opt_math_functions_test.go": {
+            "sha256": "d6b7818f140efea0eaf8a54725e275a505f53e579d14f7d3a8bd12cc8204dc80"
+          },
+          "sqlite3_opt_os_trace.go": {
+            "sha256": "53b46004b5bb72d59974e430825b7da7a9876e1d33718d89d84fab782d25f769"
+          },
+          "sqlite3_opt_percentile.go": {
+            "sha256": "eb362a8eb62d9b3666ccd4117aa6d85135a11662983557a2252535660dff5e62"
+          },
+          "sqlite3_opt_preupdate.go": {
+            "sha256": "c5f6fec85a685dad6103a3e9ad4cad0483cb7491aed249da39c59f7577f4075a"
+          },
+          "sqlite3_opt_preupdate_hook.go": {
+            "sha256": "393d76cc21fa643d6bfd0c5d45c8ec2eccd46f78ca94ac2bed6930bd8d6f4ac3"
+          },
+          "sqlite3_opt_preupdate_hook_test.go": {
+            "sha256": "3d81e0fa30fac652be76473537a9bda61ccdec763e8ff4b8093d9c6ee6d7420b"
+          },
+          "sqlite3_opt_preupdate_omit.go": {
+            "sha256": "a215bb90cca68f5c0ff8ac715d231ced76eeb6066ca7f2da7be512dfe7f469d2"
+          },
+          "sqlite3_opt_secure_delete.go": {
+            "sha256": "544fdbc3bb7f496b4b337fdc2eee179c9df88ac126d385b2ddba3cfb4e7bf226"
+          },
+          "sqlite3_opt_secure_delete_fast.go": {
+            "sha256": "00da7c235bd4ea9f3fe17827e9cd6573f759ff45d05b2b736bc730c18ea92d14"
+          },
+          "sqlite3_opt_serialize.go": {
+            "sha256": "3a43b12540ff368f58caed111020fa69767e98a6dab51ea6e4521c07550224ac"
+          },
+          "sqlite3_opt_serialize_omit.go": {
+            "sha256": "21cf888e7bcf72d30560e7c6760ebc29325de2863123dedba49d7178bebccb6a"
+          },
+          "sqlite3_opt_serialize_test.go": {
+            "sha256": "430c6adfe8fed6b723d9ae03ea113e35f1916ca1869a960006f3c4d34f532648"
+          },
+          "sqlite3_opt_stat4.go": {
+            "sha256": "e42fa54a86161e1fb48f98408ef928dcd729eb080d10bba9643e8fd2801f4b2f"
+          },
+          "sqlite3_opt_unlock_notify.c": {
+            "sha256": "ae4b09313b8eb2d8d963be47f3e95502991a912788375aeba9a83643bd03598c"
+          },
+          "sqlite3_opt_unlock_notify.go": {
+            "sha256": "8a53583c1f447af2dbfd548d618f56cf4f186db2209f20e91848b045a767c29b"
+          },
+          "sqlite3_opt_unlock_notify_test.go": {
+            "sha256": "9db931c162c8a75afb3d988f58342af6c4938c0eb92096dee9a1e6ff6f812292"
+          },
+          "sqlite3_opt_userauth.go": {
+            "sha256": "19c80ea111982cfb61c63e14c8b66cee42dc531fb3430d4771689165c391af80"
+          },
+          "sqlite3_opt_userauth_omit.go": {
+            "sha256": "9a43a2917cc566ba6013bf5c37a1c5a5da30fb889fdaba07813a5f8b33910deb"
+          },
+          "sqlite3_opt_userauth_test.go": {
+            "sha256": "6793bd4a69efd8fc5200bd2676104ab099bb3c21b210bfe63ef7fc2830ec2ba0"
+          },
+          "sqlite3_opt_vacuum_full.go": {
+            "sha256": "91ccaea412606cb8976a5aa2e22f53562fa1f7079bf5b9f7c34c2dabf16b9d32"
+          },
+          "sqlite3_opt_vacuum_incr.go": {
+            "sha256": "5866b91d80a947b037a8c0c2d17f2b97aa562edb89dd766bd416ec538a1206ed"
+          },
+          "sqlite3_opt_vtable.go": {
+            "sha256": "9a7dc515d847d26a3c574df80423b47c566da3091f748b21317fd573db9da311"
+          },
+          "sqlite3_opt_vtable_test.go": {
+            "sha256": "216ba59d80489ea10e790d5baa1cf7e50e572a2dab2791474923143930852834"
+          },
+          "sqlite3_other.go": {
+            "sha256": "ee1582442a9492d4975ca57276dd84d7dda8e6c25013d9cbc31326e8401bb748"
+          },
+          "sqlite3_solaris.go": {
+            "sha256": "61aa7226faebd6d56bd22efd3afb1c22dff311b8256d938c311124f5878c70cd"
+          },
+          "sqlite3_test.go": {
+            "sha256": "4f7900818cb8f0c2094b01e57755f5f884697dad3357f82f8312516524152b89"
+          },
+          "sqlite3_trace.go": {
+            "sha256": "9e68786b553ecb4d377b14a753b9392ea9274a5e22ca71e308d265074873f811"
+          },
+          "sqlite3_type.go": {
+            "sha256": "621c5b2c8ff0f531b2b1e14b5020facf8203f86ab8455e579393ba128d490700"
+          },
+          "sqlite3_usleep_windows.go": {
+            "sha256": "cb20d3a8824e856b5c6d77645348618b09e94e909875111e2371a77f48d9f4ac"
+          },
+          "sqlite3_windows.go": {
+            "sha256": "4829e5f93fb09590056de3da430f5262ad844b5ce1e01e53714edef8137d3144"
+          },
+          "sqlite3ext.h": {
+            "sha256": "15a012aa927943cfb170c2e43b2e90d80ad604214f58595ff96ad928e96c15e7"
+          },
+          "static_mock.go": {
+            "sha256": "87297eeffeb95f232abee321955af9aee354f1f41594876494f9a8e1537fa7c8"
+          },
+          "testkey.pem": {
+            "sha256": "b3d68fa4af5140530791850cd38ecc0a6b38e4a3ffd491ee4f873383d6079fcc"
+          },
+          "testpub.pem": {
+            "sha256": "1a6613b6583065284e9c0d8cb79c0fa3110242338598ef3e1b8dc099b1a652d3"
+          },
+          "upgrade/upgrade.go": {
+            "sha256": "27bdbbabb731fbf4c94dea609be1691600f9f75924d43aa8ba91cacb09275254"
+          },
+          "upgrade/upgrade.sh": {
+            "sha256": "25d8eeadcf3f8f45e1a86b06fd96cf80ae08579c374aaf6e248e39cde92ddb5a"
+          }
+        },
+        "starttime": "2026-03-25T01:59:22.07878946Z",
+        "endtime": "2026-03-25T01:59:23.674130878Z"
+      },
+      {
+        "type": "https://witness.dev/attestations/command-run/v0.1",
+        "attestation": {
+          "cmd": [
+            "go",
+            "build",
+            "-tags",
+            "linux"
+          ],
+          "exitcode": 0,
+          "processes": [
+            {
+              "program": "/usr/local/go/bin/go",
+              "processid": 12726,
+              "parentpid": 0
+            },
+            {
+              "processid": 12758,
+              "parentpid": 12726,
+              "comm": "compile",
+              "cmdline": "/usr/local/go/pkg/tool/linux_amd64/compile -o /tmp/go-build15417171/b091/_pkg_.a -trimpath /tmp/go-build15417171/b091=> -p database/sql -lang=go1.25 -std -complete -buildid vA8_rLwswHnc2kOyqay4/vA8_rLwswHnc2kOyqay4 -goversion go1.25.6 -c=4 -nolocalimports -importcfg /tmp/go-build15417171/b091/importcfg -pack /usr/local/go/src/database/sql/convert.go /usr/local/go/src/database/sql/ctxutil.go /usr/local/go/src/database/sql/sql.go",
+              "exedigest": {
+                "sha256": "5093d8eff72be2cdffac5210d6b243e81fbf35f761d322ea5fbd87d18845b635"
+              },
+              "environ": "GOTELEMETRYDIR=/root/.config/go/telemetry CXX=g++ CGO_ENABLED=1 GCM_INTERACTIVE=never HOME=/root LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90: LESSCLOSE=/usr/bin/lesspipe %s %s PS1=(venv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\u@\\h:\\w\\$  GOAUTH=netrc GOHOSTOS=linux GOOS=linux GOAMD64=v1 TZ=UTC GOROOT=/usr/local/go DEBIAN_FRONTEND=noninteractive GOMODCACHE=/root/go/pkg/mod GOTOOLCHAIN=auto PWD=/workspace/SBOMit-examples/go-sqlite3 HOSTNAME=16492245a519 VIRTUAL_ENV=/workspace/orjson/venv GOFIPS140=off GOSUMDB=off GOTOOLDIR=/usr/local/go/pkg/tool/linux_amd64 AR=ar = GO_VERSION=1.25.6 TERM=xterm GOCACHE=/root/.cache/go-build GCCGO=gccgo CC=gcc GOPATH=/root/go LESSOPEN=| /usr/bin/lesspipe %s SHLVL=1 VIRTUAL_ENV_PROMPT=(venv)  PATH=/workspace/orjson/venv/bin:/root/.cargo/bin:/usr/local/go/bin:/root/go/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin GOARCH=amd64 GOPROXY=direct GOTELEMETRY=local GOVERSION=go1.25.6 OLDPWD=/workspace/SBOMit-examples _=/workspace/witness/bin/witness GIT_TERMINAL_PROMPT=0 TOOLEXEC_IMPORTPATH=database/sql GOENV=/root/.config/go/env GOHOSTARCH=amd64",
+              "specbypassisvuln": true
+            },
+            {
+              "processid": 12760,
+              "parentpid": 12726,
+              "comm": "compile",
+              "cmdline": "/usr/local/go/pkg/tool/linux_amd64/compile -o /tmp/go-build15417171/b091/_pkg_.a -trimpath /tmp/go-build15417171/b091=> -p database/sql -lang=go1.25 -std -complete -buildid vA8_rLwswHnc2kOyqay4/vA8_rLwswHnc2kOyqay4 -goversion go1.25.6 -c=4 -nolocalimports -importcfg /tmp/go-build15417171/b091/importcfg -pack /usr/local/go/src/database/sql/convert.go /usr/local/go/src/database/sql/ctxutil.go /usr/local/go/src/database/sql/sql.go",
+              "exedigest": {
+                "sha256": "5093d8eff72be2cdffac5210d6b243e81fbf35f761d322ea5fbd87d18845b635"
+              },
+              "environ": "PATH=/workspace/orjson/venv/bin:/root/.cargo/bin:/usr/local/go/bin:/root/go/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin GOAMD64=v1 AR=ar LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90: SHLVL=1 GOPATH=/root/go GIT_TERMINAL_PROMPT=0 TOOLEXEC_IMPORTPATH=database/sql HOSTNAME=16492245a519 LESSCLOSE=/usr/bin/lesspipe %s %s PS1=(venv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\u@\\h:\\w\\$  DEBIAN_FRONTEND=noninteractive GOARCH=amd64 GOTOOLCHAIN=auto GOTOOLDIR=/usr/local/go/pkg/tool/linux_amd64 PWD=/workspace/SBOMit-examples/go-sqlite3 HOME=/root GOCACHE=/root/.cache/go-build GOENV=/root/.config/go/env GOTELEMETRY=local CC=gcc GOROOT=/usr/local/go GO_VERSION=1.25.6 OLDPWD=/workspace/SBOMit-examples GOFIPS140=off LESSOPEN=| /usr/bin/lesspipe %s GCM_INTERACTIVE=never = TZ=UTC VIRTUAL_ENV=/workspace/orjson/venv VIRTUAL_ENV_PROMPT=(venv)  _=/workspace/witness/bin/witness GOAUTH=netrc GOVERSION=go1.25.6 GCCGO=gccgo CXX=g++ GOOS=linux GOPROXY=direct GOHOSTARCH=amd64 GOHOSTOS=linux GOMODCACHE=/root/go/pkg/mod GOSUMDB=off GOTELEMETRYDIR=/root/.config/go/telemetry CGO_ENABLED=1 TERM=xterm",
+              "specbypassisvuln": true
+            },
+            {
+              "processid": 12764,
+              "parentpid": 12726,
+              "comm": "cgo",
+              "cmdline": "/usr/local/go/pkg/tool/linux_amd64/cgo -objdir /tmp/go-build15417171/b001/ -importpath github.com/mattn/go-sqlite3 -ldflags=\"-O2\" \"-g\" \"-ldl\" -- -I /tmp/go-build15417171/b001/ -O2 -g -std=gnu99 -DSQLITE_ENABLE_RTREE -DSQLITE_THREADSAFE=1 -DHAVE_USLEEP=1 -DSQLITE_ENABLE_FTS3 -DSQLITE_ENABLE_FTS3_PARENTHESIS -DSQLITE_TRACE_SIZE_LIMIT=15 -DSQLITE_OMIT_DEPRECATED -DSQLITE_DEFAULT_WAL_SYNCHRONOUS=1 -DSQLITE_ENABLE_UPDATE_DELETE_LIMIT -Wno-deprecated-declarations -I/workspace/SBOMit-examples/go-sqlite3 /workspace/SBOMit-examples/go-sqlite3/backup.go /workspace/SBOMit-examples/go-sqlite3/callback.go /workspace/SBOMit-examples/go-sqlite3/error.go /workspace/SBOMit-examples/go-sqlite3/sqlite3.go /workspace/SBOMit-examples/go-sqlite3/sqlite3_context.go /workspace/SBOMit-examples/go-sqlite3/sqlite3_load_extension.go /workspace/SBOMit-examples/go-sqlite3/sqlite3_opt_serialize.go /workspace/SBOMit-examples/go-sqlite3/sqlite3_opt_userauth_omit.go /workspace/SBOMit-examples/go-sqlite3/sqlite3_other.go /workspace/SBOMit-examples/go-sqlite3/sqlite3_type.go",
+              "exedigest": {
+                "sha256": "5093d8eff72be2cdffac5210d6b243e81fbf35f761d322ea5fbd87d18845b635"
+              },
+              "environ": "GOHOSTOS=linux GOTOOLCHAIN=auto TOOLEXEC_IMPORTPATH=github.com/mattn/go-sqlite3 TERM=dumb VIRTUAL_ENV_PROMPT=(venv)  PS1=(venv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\u@\\h:\\w\\$  GOCACHE=/root/.cache/go-build GOOS=linux CXX=g++ GCM_INTERACTIVE=never = TZ=UTC LESSCLOSE=/usr/bin/lesspipe %s %s SHLVL=1 DEBIAN_FRONTEND=noninteractive GOMODCACHE=/root/go/pkg/mod GIT_TERMINAL_PROMPT=0 CGO_LDFLAGS= HOME=/root GOPATH=/root/go GOAUTH=netrc GOENV=/root/.config/go/env GOFIPS140=off GOPROXY=direct GOVERSION=go1.25.6 GOAMD64=v1 GO_VERSION=1.25.6 GOTELEMETRYDIR=/root/.config/go/telemetry GCCGO=gccgo CC=gcc CGO_ENABLED=1 PWD=/workspace/SBOMit-examples/go-sqlite3 HOSTNAME=16492245a519 LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90: VIRTUAL_ENV=/workspace/orjson/venv GOROOT=/usr/local/go GOTOOLDIR=/usr/local/go/pkg/tool/linux_amd64 _=/workspace/witness/bin/witness GOARCH=amd64 GOSUMDB=off GOTELEMETRY=local AR=ar LESSOPEN=| /usr/bin/lesspipe %s PATH=/workspace/orjson/venv/bin:/root/.cargo/bin:/usr/local/go/bin:/root/go/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin OLDPWD=/workspace/SBOMit-examples GOHOSTARCH=amd64",
+              "specbypassisvuln": true
+            },
+            {
+              "processid": 12767,
+              "parentpid": 12726,
+              "comm": "cgo",
+              "cmdline": "/usr/local/go/pkg/tool/linux_amd64/cgo -objdir /tmp/go-build15417171/b001/ -importpath github.com/mattn/go-sqlite3 -ldflags=\"-O2\" \"-g\" \"-ldl\" -- -I /tmp/go-build15417171/b001/ -O2 -g -std=gnu99 -DSQLITE_ENABLE_RTREE -DSQLITE_THREADSAFE=1 -DHAVE_USLEEP=1 -DSQLITE_ENABLE_FTS3 -DSQLITE_ENABLE_FTS3_PARENTHESIS -DSQLITE_TRACE_SIZE_LIMIT=15 -DSQLITE_OMIT_DEPRECATED -DSQLITE_DEFAULT_WAL_SYNCHRONOUS=1 -DSQLITE_ENABLE_UPDATE_DELETE_LIMIT -Wno-deprecated-declarations -I/workspace/SBOMit-examples/go-sqlite3 /workspace/SBOMit-examples/go-sqlite3/backup.go /workspace/SBOMit-examples/go-sqlite3/callback.go /workspace/SBOMit-examples/go-sqlite3/error.go /workspace/SBOMit-examples/go-sqlite3/sqlite3.go /workspace/SBOMit-examples/go-sqlite3/sqlite3_context.go /workspace/SBOMit-examples/go-sqlite3/sqlite3_load_extension.go /workspace/SBOMit-examples/go-sqlite3/sqlite3_opt_serialize.go /workspace/SBOMit-examples/go-sqlite3/sqlite3_opt_userauth_omit.go /workspace/SBOMit-examples/go-sqlite3/sqlite3_other.go /workspace/SBOMit-examples/go-sqlite3/sqlite3_type.go",
+              "exedigest": {
+                "sha256": "5093d8eff72be2cdffac5210d6b243e81fbf35f761d322ea5fbd87d18845b635"
+              },
+              "environ": "CGO_LDFLAGS= HOME=/root SHLVL=1 _=/workspace/witness/bin/witness GOHOSTOS=linux GOOS=linux GOTELEMETRYDIR=/root/.config/go/telemetry AR=ar CC=gcc LESSCLOSE=/usr/bin/lesspipe %s %s DEBIAN_FRONTEND=noninteractive OLDPWD=/workspace/SBOMit-examples PWD=/workspace/SBOMit-examples/go-sqlite3 = LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90: VIRTUAL_ENV=/workspace/orjson/venv PS1=(venv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\u@\\h:\\w\\$  GOSUMDB=off GOTOOLDIR=/usr/local/go/pkg/tool/linux_amd64 GOAMD64=v1 HOSTNAME=16492245a519 TZ=UTC TERM=dumb GOROOT=/usr/local/go VIRTUAL_ENV_PROMPT=(venv)  PATH=/workspace/orjson/venv/bin:/root/.cargo/bin:/usr/local/go/bin:/root/go/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin GOARCH=amd64 GOVERSION=go1.25.6 GIT_TERMINAL_PROMPT=0 GOCACHE=/root/.cache/go-build GOPROXY=direct GCCGO=gccgo CGO_ENABLED=1 GO_VERSION=1.25.6 GOPATH=/root/go GOAUTH=netrc GOENV=/root/.config/go/env GOHOSTARCH=amd64 GOMODCACHE=/root/go/pkg/mod CXX=g++ LESSOPEN=| /usr/bin/lesspipe %s GOFIPS140=off GOTELEMETRY=local GOTOOLCHAIN=auto GCM_INTERACTIVE=never TOOLEXEC_IMPORTPATH=github.com/mattn/go-sqlite3",
+              "specbypassisvuln": true
+            },
+            {
+              "processid": 12773,
+              "parentpid": 12726,
+              "comm": "cgo",
+              "cmdline": "/usr/local/go/pkg/tool/linux_amd64/cgo -objdir /tmp/go-build15417171/b001/ -importpath github.com/mattn/go-sqlite3 -ldflags=\"-O2\" \"-g\" \"-ldl\" -- -I /tmp/go-build15417171/b001/ -O2 -g -std=gnu99 -DSQLITE_ENABLE_RTREE -DSQLITE_THREADSAFE=1 -DHAVE_USLEEP=1 -DSQLITE_ENABLE_FTS3 -DSQLITE_ENABLE_FTS3_PARENTHESIS -DSQLITE_TRACE_SIZE_LIMIT=15 -DSQLITE_OMIT_DEPRECATED -DSQLITE_DEFAULT_WAL_SYNCHRONOUS=1 -DSQLITE_ENABLE_UPDATE_DELETE_LIMIT -Wno-deprecated-declarations -I/workspace/SBOMit-examples/go-sqlite3 /workspace/SBOMit-examples/go-sqlite3/backup.go /workspace/SBOMit-examples/go-sqlite3/callback.go /workspace/SBOMit-examples/go-sqlite3/error.go /workspace/SBOMit-examples/go-sqlite3/sqlite3.go /workspace/SBOMit-examples/go-sqlite3/sqlite3_context.go /workspace/SBOMit-examples/go-sqlite3/sqlite3_load_extension.go /workspace/SBOMit-examples/go-sqlite3/sqlite3_opt_serialize.go /workspace/SBOMit-examples/go-sqlite3/sqlite3_opt_userauth_omit.go /workspace/SBOMit-examples/go-sqlite3/sqlite3_other.go /workspace/SBOMit-examples/go-sqlite3/sqlite3_type.go",
+              "exedigest": {
+                "sha256": "5093d8eff72be2cdffac5210d6b243e81fbf35f761d322ea5fbd87d18845b635"
+              },
+              "environ": "GOSUMDB=off SHLVL=1 GOOS=linux GOTELEMETRY=local GOVERSION=go1.25.6 GIT_TERMINAL_PROMPT=0 PWD=/workspace/SBOMit-examples/go-sqlite3 TERM=dumb DEBIAN_FRONTEND=noninteractive _=/workspace/witness/bin/witness GOTOOLDIR=/usr/local/go/pkg/tool/linux_amd64 AR=ar TOOLEXEC_IMPORTPATH=github.com/mattn/go-sqlite3 CGO_LDFLAGS= GOPATH=/root/go GOHOSTARCH=amd64 CXX=g++ GO_VERSION=1.25.6 VIRTUAL_ENV_PROMPT=(venv)  GOARCH=amd64 GOAUTH=netrc GOTOOLCHAIN=auto HOSTNAME=16492245a519 VIRTUAL_ENV=/workspace/orjson/venv LESSOPEN=| /usr/bin/lesspipe %s PS1=(venv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\u@\\h:\\w\\$  PATH=/workspace/orjson/venv/bin:/root/.cargo/bin:/usr/local/go/bin:/root/go/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin GOCACHE=/root/.cache/go-build GOENV=/root/.config/go/env GOMODCACHE=/root/go/pkg/mod HOME=/root LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90: GOROOT=/usr/local/go OLDPWD=/workspace/SBOMit-examples GOAMD64=v1 CGO_ENABLED=1 TZ=UTC LESSCLOSE=/usr/bin/lesspipe %s %s GOFIPS140=off GOHOSTOS=linux GOPROXY=direct CC=gcc GCM_INTERACTIVE=never = GOTELEMETRYDIR=/root/.config/go/telemetry GCCGO=gccgo",
+              "specbypassisvuln": true
+            },
+            {
+              "processid": 12925,
+              "parentpid": 12726,
+              "comm": "cgo",
+              "cmdline": "/usr/local/go/pkg/tool/linux_amd64/cgo -dynpackage sqlite3 -dynimport /tmp/go-build15417171/b001/_cgo_.o -dynout /tmp/go-build15417171/b001/_cgo_import.go",
+              "exedigest": {
+                "sha256": "5093d8eff72be2cdffac5210d6b243e81fbf35f761d322ea5fbd87d18845b635"
+              },
+              "environ": "TZ=UTC GOROOT=/usr/local/go VIRTUAL_ENV_PROMPT=(venv)  GOTELEMETRY=local GOTELEMETRYDIR=/root/.config/go/telemetry PWD=/workspace/SBOMit-examples/go-sqlite3 TERM=dumb GOCACHE=/root/.cache/go-build GOTOOLCHAIN=auto HOSTNAME=16492245a519 LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90: PATH=/workspace/orjson/venv/bin:/root/.cargo/bin:/usr/local/go/bin:/root/go/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin GOPATH=/root/go _=/workspace/witness/bin/witness CXX=g++ TOOLEXEC_IMPORTPATH=github.com/mattn/go-sqlite3 = LESSCLOSE=/usr/bin/lesspipe %s %s GOFIPS140=off GOOS=linux GOAMD64=v1 DEBIAN_FRONTEND=noninteractive PS1=(venv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\u@\\h:\\w\\$  OLDPWD=/workspace/SBOMit-examples GOENV=/root/.config/go/env GOTOOLDIR=/usr/local/go/pkg/tool/linux_amd64 AR=ar CGO_ENABLED=1 HOME=/root VIRTUAL_ENV=/workspace/orjson/venv GO_VERSION=1.25.6 SHLVL=1 GOARCH=amd64 GOAUTH=netrc GOHOSTARCH=amd64 GOHOSTOS=linux GOPROXY=direct GOSUMDB=off LESSOPEN=| /usr/bin/lesspipe %s GOMODCACHE=/root/go/pkg/mod GOVERSION=go1.25.6 GCCGO=gccgo CC=gcc GCM_INTERACTIVE=never GIT_TERMINAL_PROMPT=0",
+              "specbypassisvuln": true
+            }
+          ]
+        },
+        "starttime": "2026-03-25T01:59:23.676257336Z",
+        "endtime": "2026-03-25T02:00:33.341322216Z"
+      },
+      {
+        "type": "https://witness.dev/attestations/network-trace/v0.1",
+        "attestation": {
+          "network_trace": {
+            "start_time": "2026-03-25T01:59:24.643411337Z",
+            "end_time": "2026-03-25T02:00:33.324167758Z",
+            "connections": null,
+            "summary": {
+              "total_connections": 0,
+              "intercepted_count": 0,
+              "metadata_only_count": 0,
+              "protocol_counts": {},
+              "unique_hosts": null,
+              "unique_ips": null,
+              "total_bytes_sent": 0,
+              "total_bytes_received": 0
+            },
+            "config": {
+              "observe_pids": [
+                12726
+              ],
+              "observe_child_tree": true,
+              "proxy_port": 8888,
+              "proxy_bind_ipv4": "127.0.0.1",
+              "enabled_http_inspection": true,
+              "generate_ca": true,
+              "ca_cert_path": "./witness_nettrace_proxy/ca_cert.pem",
+              "ca_key_path": "./witness_nettrace_proxy/ca_key.pem",
+              "skip_verify": false,
+              "payload": {
+                "record_payload": false,
+                "record_payload_hash": true,
+                "max_payload_size": 1048576
+              }
+            },
+            "ca_cert_pem": "-----BEGIN CERTIFICATE-----\nMIIBxDCCAWugAwIBAgIRAIO53LZPES+78WXjWqt/AkwwCgYIKoZIzj0EAwIwQjEl\nMCMGA1UEChMcV2l0bmVzcyBUcmFuc3BhcmVudCBQcm94eSBDQTEZMBcGA1UEAxMQ\nV2l0bmVzcyBQcm94eSBDQTAeFw0yNjAzMjUwMDU5MjRaFw0yNzAzMjUwMTU5MjRa\nMEIxJTAjBgNVBAoTHFdpdG5lc3MgVHJhbnNwYXJlbnQgUHJveHkgQ0ExGTAXBgNV\nBAMTEFdpdG5lc3MgUHJveHkgQ0EwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAAQN\noCR9yAoR9A7XVX9o+pBI2aZffq/0P4M1voXn/9khhefaLEyrdkV5Fbrel2ZblSkf\nPhjve29M24lIiktMMBoNo0IwQDAOBgNVHQ8BAf8EBAMCAoQwDwYDVR0TAQH/BAUw\nAwEB/zAdBgNVHQ4EFgQU5p0CxpF5WCYeY65uT/TRJ0xqayQwCgYIKoZIzj0EAwID\nRwAwRAIgDTrBY84J22nKphWa+1eDQLnyWt9l1zxX6U96mV1OosECIChZl/WmipGF\nGkUHKngZTMSACpf+CLXQJmLMFpo3fdcC\n-----END CERTIFICATE-----\n"
+          }
+        },
+        "starttime": "2026-03-25T01:59:23.675510045Z",
+        "endtime": "2026-03-25T02:00:33.354475133Z"
+      },
+      {
+        "type": "https://witness.dev/attestations/product/v0.1",
+        "attestation": {},
+        "starttime": "2026-03-25T02:00:33.360350966Z",
+        "endtime": "2026-03-25T02:00:33.790424966Z"
+      }
+    ]
+  }
+}
